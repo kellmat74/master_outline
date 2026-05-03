@@ -2488,7 +2488,302 @@
       "number": 9,
       "title": "Prayer",
       "summary": "MASTER OUTLINE NUMBER NINE\nPrayer\n\nPrayer is as old as man, as universal as religion, and as instinctive as breathing (Gen. 4:26 OT). It is practiced in some form by all men of all faiths. Prayer springs from the heart with a need—a need greater than man’s ability to encounter. Prayer is man’s acknowledgment of a being higher than himself.\n\nMost men try to pray, yet so few know how. There are two kinds of prayers: the prayer that does not reach God and the prayer that does reach God. This is illustrated by our Lord in the parable of the Pharisee and the publican (Luke 18:9-14). Both men went to the same place, at the same time, for the same purpose—to pray.\n\nThe Pharisee prayed in his religious pride, expecting God to answer because he thought himself worthy. He informed God of his own goodness, that he was better than others. He boasted of his good works. He said, “I fast; I tithe.” This is the kind of prayer that does not reach God. It is self-righteous prayer.\n\nNow look at the publican and his prayer. He came to God in great humility, conscious of his unworthiness, confessing himself a sinner, and begging for mercy. This is the kind of prayer that does reach God. This is righteous prayer.\n\nIt is a rare privilege to pray; because it brings you into close fellowship with God, admitting your need for Him and your utter dependence upon Him.\n\n   I. WHAT IS PRAYER?\n      (Now turn to Matt. 7:7-11.)\n  II. WHY PRAY?\n      (Now turn to Luke 18:1.)\n III. HOW TO PRAY\n      (Now turn to Matt. 6:9-13.)\n  IV. WHERE TO PRAY\n      (Now turn to Acts 12:5.)\n   V. HINDRANCES TO PRAYER\n      (Now turn to 1 Pet. 3:7.)\n  VI. DOES GOD ANSWER ALL PRAYERS?\n      (Now turn to John 15:7.)",
-      "points": []
+      "points": [
+        {
+          "roman": "I",
+          "letter": "A",
+          "source_page": 11,
+          "primary_reference": { "display": "Matt. 7:7-11", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 7, "verses": "7-11" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Prayer is asking and receiving; it is talking with God. It is making your request known to Him in faith. The above Scripture is so simple on the surface that we are in danger of failing to recognize its immensity. Our Lord instructs the believer to ask, seek, and knock; because these three words cover the whole spectrum of prayer." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Prayer is asking and receiving. When you know the will of God regarding a need, whether it be material or spiritual, you can ask and receive. This is prayer according to the revealed will of God (" },
+              { "t": "ref", "display": "1 John 5:14, 15", "book": "1 John", "book_abbrev": "1 John", "chapter": 5, "verses": "14, 15" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Prayer is seeking and finding. When you do not know the will of God regarding a need, whether it be material or spiritual, then you are to seek His will in prayer concerning this need until you find it. This is prayer for knowledge of the unrevealed will of God in a specific need (" },
+              { "t": "ref", "display": "Col. 3:1", "book": "Colossians", "book_abbrev": "Col.", "chapter": 3, "verses": "1" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Jer. 29:12, 13 OT", "book": "Jeremiah", "book_abbrev": "Jer.", "chapter": 29, "verses": "12, 13", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Prayer is knocking and opening. When you know the will of God, and yet you find a closed door, you are to knock, and keep on knocking until God opens the door. This is tenacious prayer—prayer for mountain-moving faith. Knocking prayer perseveres until the impossible becomes the possible. This is miracle-working prayer (" },
+              { "t": "ref", "display": "Matt. 17:14-21", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 17, "verses": "14-21" },
+              { "t": "text", "v": "). All things are possible when you ask, seek, and knock." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Luke 18:1, for point number II: WHY PRAY?",
+            "next_roman": "II",
+            "next_title": "WHY PRAY?",
+            "next_reference": { "display": "Luke 18:1", "book": "Luke", "book_abbrev": "Luke", "chapter": 18, "verses": "1" }
+          }
+        },
+        {
+          "roman": "II",
+          "letter": "A",
+          "source_page": 139,
+          "primary_reference": { "display": "Luke 18:1", "book": "Luke", "book_abbrev": "Luke", "chapter": 18, "verses": "1" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Pray:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Because Jesus said, “Men always ought to pray” (above verse 1). Prayer is imperative. You are commanded to pray (" },
+              { "t": "ref", "display": "Matt. 26:41", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 26, "verses": "41" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Because prayer is the only way to get things from God. “You do not have because you do not ask” (" },
+              { "t": "ref", "display": "James 4:2", "book": "James", "book_abbrev": "James", "chapter": 4, "verses": "2" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Because there is joy in prayer (" },
+              { "t": "ref", "display": "John 16:24", "book": "John", "book_abbrev": "John", "chapter": 16, "verses": "24" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "Because prayer will save you out of all your troubles (" },
+              { "t": "ref", "display": "Ps. 34:6 OT", "book": "Psalms", "book_abbrev": "Ps.", "chapter": 34, "verses": "6", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "Because prayer can unlock the treasure chest of God’s wisdom (" },
+              { "t": "ref", "display": "James 1:5", "book": "James", "book_abbrev": "James", "chapter": 1, "verses": "5" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Because prayer is a channel of power (" },
+              { "t": "ref", "display": "Jer. 33:3 OT", "book": "Jeremiah", "book_abbrev": "Jer.", "chapter": 33, "verses": "3", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "Because it is a sin not to pray (" },
+              { "t": "ref", "display": "1 Sam. 12:23 OT", "book": "1 Samuel", "book_abbrev": "1 Sam.", "chapter": 12, "verses": "23", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(8)", "runs": [
+              { "t": "text", "v": "Because sinners can be saved when they pray in faith (" },
+              { "t": "ref", "display": "Rom. 10:13, 14", "book": "Romans", "book_abbrev": "Rom.", "chapter": 10, "verses": "13, 14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(9)", "runs": [
+              { "t": "text", "v": "Because Jesus, while here in the flesh, prayed often to the Father. Now if Jesus, the Son of God, needed to pray, then we should “pray without ceasing” (" },
+              { "t": "ref", "display": "1 Thess. 5:17", "book": "1 Thessalonians", "book_abbrev": "1 Thess.", "chapter": 5, "verses": "17" },
+              { "t": "text", "v": ")." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Matt. 6:9-13, for point number III: HOW TO PRAY.",
+            "next_roman": "III",
+            "next_title": "HOW TO PRAY",
+            "next_reference": { "display": "Matt. 6:9-13", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 6, "verses": "9-13" }
+          }
+        },
+        {
+          "roman": "III",
+          "letter": "A",
+          "source_page": 9,
+          "primary_reference": { "display": "Matt. 6:9-13", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 6, "verses": "9-13" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "“In this manner, therefore, pray.” Our Lord gave this as a model prayer after one of His disciples said unto Him, “Lord, teach us to pray, as John also taught his disciples” (" },
+              { "t": "ref", "display": "Luke 11:1", "book": "Luke", "book_abbrev": "Luke", "chapter": 11, "verses": "1" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "We are to pray to “Our Father in heaven” (verse 9), because He is all-wise, all-loving, and all-powerful. We are also instructed to pray in the name of Jesus (" },
+              { "t": "ref", "display": "John 14:13, 14", "book": "John", "book_abbrev": "John", "chapter": 14, "verses": "13, 14" },
+              { "t": "text", "v": "), depending on the mediative influence of the Holy Spirit (" },
+              { "t": "ref", "display": "Rom. 8:26, 27", "book": "Romans", "book_abbrev": "Rom.", "chapter": 8, "verses": "26, 27" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "We are to pray for His will to be done in everything." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "We are to pray for the coming of the Kingdom (" },
+              { "t": "ref", "display": "Matt. 25:31-46", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 25, "verses": "31-46" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "We are to pray for our daily necessities." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "We are to pray for forgiveness and are to practice forgiving others." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "We are to pray for the leading of the Lord and for deliverance from evil." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "We are to pray in faith, for “without faith " },
+              { "t": "italic", "v": "it is" },
+              { "t": "text", "v": " impossible to please " },
+              { "t": "italic", "v": "Him" },
+              { "t": "text", "v": "” (" },
+              { "t": "ref", "display": "Heb. 11:5, 6", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 11, "verses": "5, 6" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "This model prayer is brief, to the point, and not repetitious. It is the perfect prayer." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Acts 12:5, for point number IV: WHERE TO PRAY.",
+            "next_roman": "IV",
+            "next_title": "WHERE TO PRAY",
+            "next_reference": { "display": "Acts 12:5", "book": "Acts", "book_abbrev": "Acts", "chapter": 12, "verses": "5" }
+          }
+        },
+        {
+          "roman": "IV",
+          "letter": "A",
+          "source_page": 228,
+          "primary_reference": { "display": "Acts 12:5", "book": "Acts", "book_abbrev": "Acts", "chapter": 12, "verses": "5" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "There was a remarkable change in the prayer life of the disciples after the resurrection of Jesus, and it is noted again after Pentecost. Before the death of Jesus, the disciples slept while Jesus prayed in the Garden (" },
+              { "t": "ref", "display": "Matt. 26:36-46", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 26, "verses": "36-46" },
+              { "t": "text", "v": "). But after His death and resurrection:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "They assembled in the upper room, waiting for the coming of the Holy Spirit; and they prayed. We should always pray when assembled with believers (" },
+              { "t": "ref", "display": "Acts 1:13, 14", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "13, 14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "They prayed as they went from house to house (" },
+              { "t": "ref", "display": "Acts 2:42-47", "book": "Acts", "book_abbrev": "Acts", "chapter": 2, "verses": "42-47" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "They prayed in the church when Peter was in prison (verses 5-19)." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "Paul and Silas prayed in prison (" },
+              { "t": "ref", "display": "Acts 16:25", "book": "Acts", "book_abbrev": "Acts", "chapter": 16, "verses": "25" },
+              { "t": "text", "v": "). Here we see Christians praying in the presence of unbelievers, but not to be heard of them. Never pray to please others present; pray only to please God." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "The most important place to pray is any place where you can be alone with God (" },
+              { "t": "ref", "display": "Matt. 6:6", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 6, "verses": "6" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "We are instructed to pray in all places at all times (" },
+              { "t": "ref", "display": "1 Tim. 2:8", "book": "1 Timothy", "book_abbrev": "1 Tim.", "chapter": 2, "verses": "8" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "It is a great joy to be able to talk with God, any time, any place, under any condition, and to know that He will hear and answer." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to 1 Pet. 3:7, for point number V: HINDRANCES TO PRAYER.",
+            "next_roman": "V",
+            "next_title": "HINDRANCES TO PRAYER",
+            "next_reference": { "display": "1 Pet. 3:7", "book": "1 Peter", "book_abbrev": "1 Pet.", "chapter": 3, "verses": "7" }
+          }
+        },
+        {
+          "roman": "V",
+          "letter": "A",
+          "source_page": 412,
+          "primary_reference": { "display": "1 Pet. 3:7", "book": "1 Peter", "book_abbrev": "1 Pet.", "chapter": 3, "verses": "7" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "When prayers are not answered, you should examine yourself in the light of God’s Word. If you find anything not pleasing to God, confess it, believing God for forgiveness that your prayers may be answered (" },
+              { "t": "ref", "display": "1 John 1:9", "book": "1 John", "book_abbrev": "1 John", "chapter": 1, "verses": "9" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "An unharmonious relationship between husband and wife will hinder prayer (verses 1-7)." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Selfishness will hinder prayer (" },
+              { "t": "ref", "display": "James 4:3", "book": "James", "book_abbrev": "James", "chapter": 4, "verses": "3" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "An unforgiving spirit will hinder prayer (" },
+              { "t": "ref", "display": "Matt. 5:22-24", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 5, "verses": "22-24" },
+              { "t": "text", "v": "). Many Christians go without answers to prayer because they have wronged others, or have been wronged and have failed to humble themselves and seek reconciliation." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "Unbelief will hinder prayer (" },
+              { "t": "ref", "display": "James 1:6, 7", "book": "James", "book_abbrev": "James", "chapter": 1, "verses": "6, 7" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Heb. 11:6", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 11, "verses": "6" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "Known sin in the heart will hinder prayer (" },
+              { "t": "ref", "display": "Is. 59:1, 2 OT", "book": "Isaiah", "book_abbrev": "Is.", "chapter": 59, "verses": "1, 2", "testament": "OT" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Ps. 66:18 OT", "book": "Psalms", "book_abbrev": "Ps.", "chapter": 66, "verses": "18", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "When you pray, go to God in all humility. Ask Him to reveal anything in your life that is not pleasing to Him. Then judge it; confess it, calling it by name and forsake it. Pray in all simplicity and earnestness, believing, and God will hear and answer." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to John 15:7, for point number VI: DOES GOD ANSWER ALL PRAYERS?",
+            "next_roman": "VI",
+            "next_title": "DOES GOD ANSWER ALL PRAYERS?",
+            "next_reference": { "display": "John 15:7", "book": "John", "book_abbrev": "John", "chapter": 15, "verses": "7" }
+          }
+        },
+        {
+          "roman": "VI",
+          "letter": "A",
+          "source_page": 190,
+          "primary_reference": { "display": "John 15:7", "book": "John", "book_abbrev": "John", "chapter": 15, "verses": "7" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The Bible is filled with answered prayers from Genesis to Revelation. You are commanded to pray, and God has promised to answer (" },
+              { "t": "ref", "display": "Jer. 33:3 OT", "book": "Jeremiah", "book_abbrev": "Jer.", "chapter": 33, "verses": "3", "testament": "OT" },
+              { "t": "text", "v": "). In the above Scripture, there are two requirements for answers to prayer. First, you are to abide in Him; that is, to continue in Him. It means to remain in His perfect will at all cost (" },
+              { "t": "ref", "display": "Rom. 12:1, 2", "book": "Romans", "book_abbrev": "Rom.", "chapter": 12, "verses": "1, 2" },
+              { "t": "text", "v": "). Second, His words are to abide in you; they are to become a vital part of your life. You are to be filled with and guided by His words (" },
+              { "t": "ref", "display": "Col. 3:16, 17", "book": "Colossians", "book_abbrev": "Col.", "chapter": 3, "verses": "16, 17" },
+              { "t": "text", "v": "). Meet these two requirements, and your prayers will be answered." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The answer is sometimes immediate. Peter walked on the water to go to Jesus, and as he began to sink, he prayed, “Lord, save me!” The answer was immediate (" },
+              { "t": "ref", "display": "Matt. 14:22-31", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 14, "verses": "22-31" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The answer is sometimes delayed. The delay is according to His will (" },
+              { "t": "ref", "display": "Rom. 8:28", "book": "Romans", "book_abbrev": "Rom.", "chapter": 8, "verses": "28" },
+              { "t": "text", "v": "). The resurrection of Lazarus is a good example of delayed answer to prayer. Lazarus was sick. Mary and Martha sent for Jesus to come and heal him. But Jesus delayed coming until Lazarus was dead and in the tomb for four days. Then He came and raised Lazarus from the dead. The answer was delayed—but not denied (" },
+              { "t": "ref", "display": "John 11:1-44", "book": "John", "book_abbrev": "John", "chapter": 11, "verses": "1-44" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The answer is sometimes “no.” When God answers with a “no,” He always accompanies the answer with peace (" },
+              { "t": "ref", "display": "Phil. 4:6, 7", "book": "Philippians", "book_abbrev": "Phil.", "chapter": 4, "verses": "6, 7" },
+              { "t": "text", "v": ") and grace (" },
+              { "t": "ref", "display": "2 Cor. 12:7-10", "book": "2 Corinthians", "book_abbrev": "2 Cor.", "chapter": 12, "verses": "7-10" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The answer is sometimes different from what you expect. You pray for perseverance and God sends tribulation—because “tribulation produces perseverance” (" },
+              { "t": "ref", "display": "Rom. 5:3", "book": "Romans", "book_abbrev": "Rom.", "chapter": 5, "verses": "3" },
+              { "t": "text", "v": "). God answers all your prayers—not according to your wishes, but according to His perfect will." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Now return to Master Study Outlines for lesson number ten." }
+            ]}
+          ]
+        }
+      ]
     },
     {
       "number": 10,
