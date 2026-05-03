@@ -2,7 +2,7 @@
 """
 Generate a printable Bible study guide PDF from master_outlines.json.
 Usage:  python3 scripts/make_pdf.py
-Output: dist/master_outlines_study_guide.pdf
+Output: pdf/master_outlines_study_guide.pdf
 """
 
 import json, os, sys
@@ -30,7 +30,7 @@ from reportlab.platypus.flowables import Flowable
 # ── paths ──────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "master_outlines.json"
-OUT_DIR = ROOT / "dist"
+OUT_DIR = ROOT / "pdf"
 OUT_DIR.mkdir(exist_ok=True)
 OUT = OUT_DIR / "master_outlines_study_guide.pdf"
 

@@ -8,6 +8,9 @@ pages/
 # Node
 node_modules/
 dist/
+
+# Generated PDF (regen with: python3 scripts/make_pdf.py)
+pdf/
 .vite/
 *.log
 npm-debug.log*
