@@ -194,6 +194,15 @@ body {
   font-style: italic;
 }
 
+/* ---------- Blob (front matter / outline summary) ---------- */
+
+.blob-text { line-height: 1.6; }
+
+.blob-paragraph {
+  margin: 0 0 1rem 0;
+  white-space: pre-wrap;
+}
+
 /* ---------- Print ---------- */
 
 @media print {

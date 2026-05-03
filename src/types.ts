@@ -123,18 +123,35 @@ export interface Outline {
   number: number;
   /** Title as Barrington names it (filled from each outline's first page). */
   title: string;
+  /** Optional plain-text blob: the per-outline introduction + point list as
+   *  printed in the front-matter overview pages (xxviii–xliv). Rendered as-is
+   *  before the structured `points`. */
+  summary?: string;
   points: Point[];
 }
 
 // ---------- Front matter ----------
 
-export interface FrontMatterSection {
+/** Structured front-matter (rich tree of typed blocks/runs). */
+export interface FrontMatterStructured {
   kind: "section";
   title: string;
   /** Roman / arabic source page numbers as printed (e.g. "xvii", "xviii"). */
   source_pages: string[];
   body: Block[];
 }
+
+/** Plain-text front-matter blob. Used for the preamble pages (Outline 0,
+ *  Index, How-to-Use, etc.) which don't follow the per-point conversion
+ *  pattern. The viewer renders `text` verbatim with paragraph breaks. */
+export interface FrontMatterBlob {
+  kind: "blob";
+  title: string;
+  source_pages: string[];
+  text: string;
+}
+
+export type FrontMatterSection = FrontMatterStructured | FrontMatterBlob;
 
 // ---------- Document ----------
 

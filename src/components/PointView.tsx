@@ -20,7 +20,6 @@ export default function PointView({ outline, point }: Props) {
             <RunView run={{ t: "ref", ...point.primary_reference }} />
           </span>
         </h2>
-        <p className="source-pages">printed page {point.source_page}</p>
       </header>
 
       <div className="point-body">
@@ -89,7 +88,6 @@ function RunView({ run }: { run: Run }) {
           title={`${run.book} ${run.chapter}:${run.verses}${run.testament ? ` (${run.testament})` : ""}`}
         >
           {run.display}
-          {run.testament ? ` (${run.testament})` : ""}
         </em>
       );
   }
