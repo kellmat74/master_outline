@@ -334,13 +334,652 @@
       "number": 2,
       "title": "God",
       "summary": "MASTER OUTLINE NUMBER TWO\nGod\n\nThe Bible reveals God as the only Infinite and Eternal Being, having no beginning and no ending. He is Creator and Sustainer of all things. He is the Supreme Personal Intelligence, and Righteous Ruler of His universe. He is life, and therefore, the only source of life (John 5:39).\n\nMan is natural and cannot know God by wisdom. “Can you search out the deep things of God?” (Job 11:7 OT). God is a person and can be known only by revelation. In the Old Testament He revealed Himself to and through His prophets. In the New Testament He reveals Himself through His Son Jesus Christ (Heb. 1:1-3).\n\n  I. THE EXISTENCE OF GOD\n     (Now turn to Heb. 11:5, 6.)\n II. THE PERSONALITY OF GOD\n     (Now turn to 1 Thess. 1:9.)\nIII. THE NATURE OF GOD\n     (Now turn to 1 John 4:8.)\n IV. THE GRACE OF GOD\n     (Now turn to Eph. 2:8, 9.)\n  V. THE TRINITY OF GOD\n     (Now turn to Matt. 3:16, 17.)",
-      "points": []
+      "points": [
+        {
+          "roman": "I",
+          "letter": "A",
+          "source_page": 396,
+          "primary_reference": { "display": "Heb. 11:5, 6", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 11, "verses": "5, 6" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The Bible nowhere attempts to prove or argue the existence of God. “For he who comes to God must believe that He is.” The existence of God is a fact taken for granted by the writers of both the Old and New Testaments. “In the beginning God” (" },
+              { "t": "ref", "display": "Gen. 1:1 OT", "book": "Genesis", "book_abbrev": "Gen.", "chapter": 1, "verses": "1", "testament": "OT" },
+              { "t": "text", "v": "): The Bible opens by announcing the sublime fact of God and His existence. There are arguments for the existence of God; they are not conclusive, but are food for thought:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Universal belief in God comes from within man. It is innate in man, and comes from rational intuition." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The argument from “cause and effect.” Everything that began owes its existence to a cause. We have a watch; we must have a watchmaker. We have a building; we must have a builder. We have a creation; then we must have a creator. This creation could not have come into existence without an intelligent, personal creator any more than the alphabet could produce a book itself without an author." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The argument from anthropology. Man’s moral and intellectual nature argues for a moral and intellectual creator." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The Bible and the Christ that it reveals, His virgin birth, His sinless life, His vicarious death, and His bodily resurrection—all of this and much, much more—argue for the existence of God." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to 1 Thess. 1:9, for point number II: THE PERSONALITY OF GOD.",
+            "next_roman": "II",
+            "next_title": "THE PERSONALITY OF GOD",
+            "next_reference": { "display": "1 Thess. 1:9", "book": "1 Thessalonians", "book_abbrev": "1 Thess.", "chapter": 1, "verses": "9" }
+          }
+        },
+        {
+          "roman": "II",
+          "letter": "A",
+          "source_page": 357,
+          "primary_reference": { "display": "1 Thess. 1:9", "book": "1 Thessalonians", "book_abbrev": "1 Thess.", "chapter": 1, "verses": "9" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The Bible reveals God as a personality. He is called “the living and true God”—One possessing self-consciousness and self-determination. His personality is shown in what He does, such as:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "God loves. “God so loved the world” (" },
+              { "t": "ref", "display": "John 3:16", "book": "John", "book_abbrev": "John", "chapter": 3, "verses": "16" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "God hates. “These six " },
+              { "t": "italic", "v": "things" },
+              { "t": "text", "v": " the " },
+              { "t": "smallcaps", "v": "Lord" },
+              { "t": "text", "v": " hates” (" },
+              { "t": "ref", "display": "Prov. 6:16 OT", "book": "Proverbs", "book_abbrev": "Prov.", "chapter": 6, "verses": "16", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "God cares. “He cares for you” (" },
+              { "t": "ref", "display": "1 Pet. 5:7", "book": "1 Peter", "book_abbrev": "1 Pet.", "chapter": 5, "verses": "7" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "God grieves. “He was grieved in His heart” (" },
+              { "t": "ref", "display": "Gen. 6:6 OT", "book": "Genesis", "book_abbrev": "Gen.", "chapter": 6, "verses": "6", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Only a personality can love, hate, care, and grieve; therefore, God must be a living, eternal, and personal being." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to 1 John 4:8, for point number III: THE NATURE OF GOD.",
+            "next_roman": "III",
+            "next_title": "THE NATURE OF GOD",
+            "next_reference": { "display": "1 John 4:8", "book": "1 John", "book_abbrev": "1 John", "chapter": 4, "verses": "8" }
+          }
+        },
+        {
+          "roman": "III",
+          "letter": "A",
+          "source_page": 427,
+          "primary_reference": { "display": "1 John 4:8", "book": "1 John", "book_abbrev": "1 John", "chapter": 4, "verses": "8" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "There are four definitions of God in the Bible. Since God cannot be defined, they are incomplete. However, they do throw light upon the nature of God. They are:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "“God is love” (verse 8). This is the nature of God in His divine compassion." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "“God is light” (" },
+              { "t": "ref", "display": "1 John 1:5", "book": "1 John", "book_abbrev": "1 John", "chapter": 1, "verses": "5" },
+              { "t": "text", "v": "). This is the nature of God in His divine character; in Him there is no darkness." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "“God " },
+              { "t": "italic", "v": "is" },
+              { "t": "text", "v": " a consuming fire” (" },
+              { "t": "ref", "display": "Heb. 12:29", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 12, "verses": "29" },
+              { "t": "text", "v": "). This is the nature of God in His divine holiness." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "“God " },
+              { "t": "italic", "v": "is" },
+              { "t": "text", "v": " Spirit” (" },
+              { "t": "ref", "display": "John 4:24", "book": "John", "book_abbrev": "John", "chapter": 4, "verses": "24" },
+              { "t": "text", "v": "). This is the nature of God in His divine essence." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The attributes of God reveal His nature. Do not think of His attributes as abstract, but as vital mediums through which His holy nature is unveiled—attributes ascribed to Him, such as:" }
+            ]},
+            { "type": "subpoint", "label": "(a)", "runs": [
+              { "t": "text", "v": "Life is ascribed to God (" },
+              { "t": "ref", "display": "John 5:26", "book": "John", "book_abbrev": "John", "chapter": 5, "verses": "26" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(b)", "runs": [
+              { "t": "text", "v": "All knowledge is ascribed to God (" },
+              { "t": "ref", "display": "Ps. 147:5 OT", "book": "Psalms", "book_abbrev": "Ps.", "chapter": 147, "verses": "5", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(c)", "runs": [
+              { "t": "text", "v": "All power is ascribed to God (" },
+              { "t": "ref", "display": "Rev. 19:6", "book": "Revelation", "book_abbrev": "Rev.", "chapter": 19, "verses": "6" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(d)", "runs": [
+              { "t": "text", "v": "Filling the universe with His presence is ascribed to God (" },
+              { "t": "ref", "display": "Ps. 139:7-10 OT", "book": "Psalms", "book_abbrev": "Ps.", "chapter": 139, "verses": "7-10", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "God is everywhere present, but He is not in everything. If God were in everything, man could worship any object and he would be worshiping God. God is a spirit being. “And those who worship Him must worship in spirit and truth” (" },
+              { "t": "ref", "display": "John 4:24", "book": "John", "book_abbrev": "John", "chapter": 4, "verses": "24" },
+              { "t": "text", "v": ")." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Eph. 2:8, 9, for point number IV: THE GRACE OF GOD.",
+            "next_roman": "IV",
+            "next_title": "THE GRACE OF GOD",
+            "next_reference": { "display": "Eph. 2:8, 9", "book": "Ephesians", "book_abbrev": "Eph.", "chapter": 2, "verses": "8, 9" }
+          }
+        },
+        {
+          "roman": "IV",
+          "letter": "B",
+          "source_page": 336,
+          "primary_reference": { "display": "Eph. 2:8, 9", "book": "Ephesians", "book_abbrev": "Eph.", "chapter": 2, "verses": "8, 9" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Grace is the love and mercy of God in action. Mercy is negative, and love is positive; both together mean grace. To show mercy in love is grace. God showed mercy in love when He sent His Son to bear our sins in His own body on the cross (" },
+              { "t": "ref", "display": "John 3:16", "book": "John", "book_abbrev": "John", "chapter": 3, "verses": "16" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The grace of God saves forever (" },
+              { "t": "ref", "display": "Rom. 8:38, 39", "book": "Romans", "book_abbrev": "Rom.", "chapter": 8, "verses": "38, 39" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The grace of God is unconditional; that is, we are not saved on the condition that we “hold out unto the end” or that we “fail not” or that we “do our best.” We are saved by the grace of God, apart from works." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The grace of God is sufficient (" },
+              { "t": "ref", "display": "2 Cor. 12:9", "book": "2 Corinthians", "book_abbrev": "2 Cor.", "chapter": 12, "verses": "9" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The grace of God makes no discrimination (" },
+              { "t": "ref", "display": "Rev. 22:17", "book": "Revelation", "book_abbrev": "Rev.", "chapter": 22, "verses": "17" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "The grace of God justifies (" },
+              { "t": "ref", "display": "Rom. 3:23, 24", "book": "Romans", "book_abbrev": "Rom.", "chapter": 3, "verses": "23, 24" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "The grace of God makes every believer an heir (" },
+              { "t": "ref", "display": "Titus 3:7", "book": "Titus", "book_abbrev": "Titus", "chapter": 3, "verses": "7" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "The grace of God teaches the believer how to live (" },
+              { "t": "ref", "display": "Titus 2:11, 12", "book": "Titus", "book_abbrev": "Titus", "chapter": 2, "verses": "11, 12" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The grace of God is nothing less than the unlimited love of God expressed in the gift of His Son, our Savior. It is the undeserved love of God toward sinners." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Matt. 3:16, 17, for point number V: THE TRINITY OF GOD.",
+            "next_roman": "V",
+            "next_title": "THE TRINITY OF GOD",
+            "next_reference": { "display": "Matt. 3:16, 17", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 3, "verses": "16, 17" }
+          }
+        },
+        {
+          "roman": "V",
+          "letter": "A",
+          "source_page": 4,
+          "primary_reference": { "display": "Matt. 3:16, 17", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 3, "verses": "16, 17" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "By the Trinity of God we mean His tri-personal existence as Father, Son, and Holy Spirit—three distinct persons in one God." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The Father is recognized as God (" },
+              { "t": "ref", "display": "1 Pet. 1:2", "book": "1 Peter", "book_abbrev": "1 Pet.", "chapter": 1, "verses": "2" },
+              { "t": "text", "v": ") and is all the fullness of the Godhead invisible (" },
+              { "t": "ref", "display": "John 1:18", "book": "John", "book_abbrev": "John", "chapter": 1, "verses": "18" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The Son is recognized as God (" },
+              { "t": "ref", "display": "Heb. 1:2", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 1, "verses": "2" },
+              { "t": "text", "v": ") and is all the fullness of the Godhead manifested in the flesh (" },
+              { "t": "ref", "display": "John 1:14", "book": "John", "book_abbrev": "John", "chapter": 1, "verses": "14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The Holy Spirit is recognized as God (" },
+              { "t": "ref", "display": "Acts 5:3, 4", "book": "Acts", "book_abbrev": "Acts", "chapter": 5, "verses": "3, 4" },
+              { "t": "text", "v": ") and is all the fullness of the Godhead acting upon man, convicting him of sin (" },
+              { "t": "ref", "display": "John 16:7-11", "book": "John", "book_abbrev": "John", "chapter": 16, "verses": "7-11" },
+              { "t": "text", "v": ") and guiding the believer into all truth (" },
+              { "t": "ref", "display": "John 16:12-15", "book": "John", "book_abbrev": "John", "chapter": 16, "verses": "12-15" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The doctrine of the Trinity is not explicit in the Old Testament, but is rather implied, “Then God said, ‘Let Us make man . . .’” (" },
+              { "t": "ref", "display": "Gen. 1:26 OT", "book": "Genesis", "book_abbrev": "Gen.", "chapter": 1, "verses": "26", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "The doctrine of the Trinity is revealed in the New Testament. In verses 16 and 17, we have Christ being baptized in water, the Father speaking from heaven, and the Holy Spirit descending as a dove. We are to baptize in the “name [not names] of the Father and of the Son and of the Holy Spirit” (" },
+              { "t": "ref", "display": "Matt. 28:19", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "19" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Even creation implies the doctrine of the Trinity. In creation, we have space, matter, and time in one creation. In space, we have length, width, and height in one space. In matter, we have energy, motion, and phenomenon in one substance. In time, we have past, present, and future in one time. In man, we have body, soul, and spirit in one man (" },
+              { "t": "ref", "display": "1 Thess. 5:23", "book": "1 Thessalonians", "book_abbrev": "1 Thess.", "chapter": 5, "verses": "23" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "In the Holy Trinity, we have Father, Son, and Holy Spirit in one God." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Now return to Master Study Outlines for lesson number three." }
+            ]}
+          ]
+        }
+      ]
     },
     {
       "number": 3,
       "title": "Jesus Christ—The Son of God",
       "summary": "MASTER OUTLINE NUMBER THREE\nJesus Christ—The Son of God\n\nChristianity differs from all religions, because it is more than a religion—it is the life of the Son of God made living in man. Christ is Christianity, and Christianity is Christ. He is the supreme subject of each book of the New Testament, and He fulfills all the promises of God in the Old Testament, from His incarnation to His Second Coming as “Lord of lords and King of kings” (Rev. 17:14). He is the God-man Christ Jesus in glory, exalted above all creatures, having “all authority ... in heaven and on earth” (Matt. 28:18).\n\nDuring His earthly ministry, He claimed to be God incarnate (in human flesh). He is all that He claimed to be, or He is less than the least (Rev. 1:8). Before His claim can be denied, there are some things that must be accounted for:\n\nHis virgin birth;\nHis holy, sinless life;\nHis many miracles;\nHis vicarious death and His bodily resurrection.\n\n  I. THE DEITY OF JESUS CHRIST\n     (Now turn to John 1:1.)\n II. THE HUMANITY OF JESUS CHRIST\n     (Now turn to Rom. 1:3, 4.)\nIII. THE VIRGIN BIRTH OF JESUS CHRIST\n     (Now turn to Luke 1:26-35.)\n IV. THE DEATH OF JESUS CHRIST\n     (Now turn to Phil. 2:8.)\n  V. THE RESURRECTION OF JESUS CHRIST\n     (Now turn to Matt. 28:1-20.)\n VI. THE ASCENSION AND SECOND COMING OF JESUS CHRIST\n     (Now turn to Acts 1:9-11.)",
-      "points": []
+      "points": [
+        {
+          "roman": "I",
+          "letter": "A",
+          "source_page": 156,
+          "primary_reference": { "display": "John 1:1", "book": "John", "book_abbrev": "John", "chapter": 1, "verses": "1" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The deity of Jesus Christ, or His God nature, is well established in the New Testament. Some of the facts are:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "He is called God by the apostle John (verse 1)." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "He is called God by the apostle Thomas (" },
+              { "t": "ref", "display": "John 20:28", "book": "John", "book_abbrev": "John", "chapter": 20, "verses": "28" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "He is called God by God the Father (" },
+              { "t": "ref", "display": "Heb. 1:8", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 1, "verses": "8" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "He claimed to be God in that He was with the Father before creation (" },
+              { "t": "ref", "display": "John 17:5", "book": "John", "book_abbrev": "John", "chapter": 17, "verses": "5" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "He claimed to be God in that He was before Abraham. “Abraham rejoiced to see My day . . .” (" },
+              { "t": "ref", "display": "John 8:51-59", "book": "John", "book_abbrev": "John", "chapter": 8, "verses": "51-59" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "He received worship, and only God is to be worshiped (" },
+              { "t": "ref", "display": "Matt. 14:33", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 14, "verses": "33" },
+              { "t": "text", "v": "). Angels refused worship (" },
+              { "t": "ref", "display": "Rev. 22:8, 9", "book": "Revelation", "book_abbrev": "Rev.", "chapter": 22, "verses": "8, 9" },
+              { "t": "text", "v": "). Man refused worship (" },
+              { "t": "ref", "display": "Acts 10:25, 26", "book": "Acts", "book_abbrev": "Acts", "chapter": 10, "verses": "25, 26" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "He forgives sin (" },
+              { "t": "ref", "display": "Mark 2:5-11", "book": "Mark", "book_abbrev": "Mark", "chapter": 2, "verses": "5-11" },
+              { "t": "text", "v": "). Only God can forgive sin." }
+            ]},
+            { "type": "subpoint", "label": "(8)", "runs": [
+              { "t": "text", "v": "He is creator and maker of all things (" },
+              { "t": "ref", "display": "Col. 1:16", "book": "Colossians", "book_abbrev": "Col.", "chapter": 1, "verses": "16" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(9)", "runs": [
+              { "t": "text", "v": "He is sustainer of all things (" },
+              { "t": "ref", "display": "Heb. 1:3", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 1, "verses": "3" },
+              { "t": "text", "v": "). Only God can control the universe." }
+            ]},
+            { "type": "subpoint", "label": "(10)", "runs": [
+              { "t": "text", "v": "He claimed to have “all authority . . . in heaven and on earth” (" },
+              { "t": "ref", "display": "Matt. 28:18", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "18" },
+              { "t": "text", "v": "). Only God has all authority." }
+            ]},
+            { "type": "subpoint", "label": "(11)", "runs": [
+              { "t": "text", "v": "He walked upon the blue waters of Galilee. The winds and the waves obeyed His command. He healed the sick and raised the dead. He gave sight to the blind and hearing to the deaf. He cast out demons and made the lame to walk. He turned water into wine and fed five thousand with the lunch of a lad." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Rom. 1:3, 4, for point number II: THE HUMANITY OF JESUS CHRIST.",
+            "next_roman": "II",
+            "next_title": "THE HUMANITY OF JESUS CHRIST",
+            "next_reference": { "display": "Rom. 1:3, 4", "book": "Romans", "book_abbrev": "Rom.", "chapter": 1, "verses": "3, 4" }
+          }
+        },
+        {
+          "roman": "II",
+          "letter": "A",
+          "source_page": 263,
+          "primary_reference": { "display": "Rom. 1:3, 4", "book": "Romans", "book_abbrev": "Rom.", "chapter": 1, "verses": "3, 4" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The humanity of Jesus Christ is seen in His human parentage (" },
+              { "t": "ref", "display": "Matt. 2:11", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 2, "verses": "11" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "He developed as a normal human being (" },
+              { "t": "ref", "display": "Luke 2:52", "book": "Luke", "book_abbrev": "Luke", "chapter": 2, "verses": "52" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "He was subject to all the sinless infirmities of the human nature:" }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "He hungered (" },
+              { "t": "ref", "display": "Matt. 4:2", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 4, "verses": "2" },
+              { "t": "text", "v": ").\nHe was thirsty (" },
+              { "t": "ref", "display": "John 19:28", "book": "John", "book_abbrev": "John", "chapter": 19, "verses": "28" },
+              { "t": "text", "v": ").\nHe was weary (" },
+              { "t": "ref", "display": "John 4:6", "book": "John", "book_abbrev": "John", "chapter": 4, "verses": "6" },
+              { "t": "text", "v": ").\nHe wept (" },
+              { "t": "ref", "display": "John 11:35", "book": "John", "book_abbrev": "John", "chapter": 11, "verses": "35" },
+              { "t": "text", "v": ").\nHe was tempted (" },
+              { "t": "ref", "display": "Heb. 4:15", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 4, "verses": "15" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Jesus is man, and yet He is more than man. He is not God and man, but the God-man. He is God in human flesh. His two natures are bound together in such a way that the two natures become united in one person, having a single consciousness and will." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Luke 1:26-35, for point number III: THE VIRGIN BIRTH OF JESUS CHRIST.",
+            "next_roman": "III",
+            "next_title": "THE VIRGIN BIRTH OF JESUS CHRIST",
+            "next_reference": { "display": "Luke 1:26-35", "book": "Luke", "book_abbrev": "Luke", "chapter": 1, "verses": "26-35" }
+          }
+        },
+        {
+          "roman": "III",
+          "letter": "A",
+          "source_page": 98,
+          "primary_reference": { "display": "Luke 1:26-35", "book": "Luke", "book_abbrev": "Luke", "chapter": 1, "verses": "26-35" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The virgin birth of Jesus Christ is without parallel in human history. It was by the virgin birth that God became man, one perfect person but two natures: one nature being that of Almighty God, the other being that of man—man without sin (" },
+              { "t": "ref", "display": "Heb. 4:15", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 4, "verses": "15" },
+              { "t": "text", "v": "). The union of the two natures became the God-man Christ Jesus." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The first hint of the virgin birth is found in " },
+              { "t": "ref", "display": "Gen. 3:15 OT", "book": "Genesis", "book_abbrev": "Gen.", "chapter": 3, "verses": "15", "testament": "OT" },
+              { "t": "text", "v": ". The One to defeat Satan was to be born of “the seed” of the woman. This is a biological miracle; there is no “seed” of the woman. From this, we are to understand that One was to be born of a woman without a human father (verses 34, 35)." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Isaiah prophesied that a “virgin shall conceive and bear a Son, and shall call His name Immanuel [God with us]”—(" },
+              { "t": "ref", "display": "Is. 7:14 OT", "book": "Isaiah", "book_abbrev": "Is.", "chapter": 7, "verses": "14", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Again Isaiah prophesied, saying, “For unto us a Child is born, Unto us a Son " },
+              { "t": "italic", "v": "is" },
+              { "t": "text", "v": " given” (" },
+              { "t": "ref", "display": "Is. 9:6, 7 OT", "book": "Isaiah", "book_abbrev": "Is.", "chapter": 9, "verses": "6, 7", "testament": "OT" },
+              { "t": "text", "v": "). This means that God gave His only begotten Son who was with Him from eternity, and the Child Jesus was born of a virgin. God gave His Son “unto us.”" }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "According to prophecy, He was to be born in Bethlehem (" },
+              { "t": "ref", "display": "Mic. 5:2 OT", "book": "Micah", "book_abbrev": "Mic.", "chapter": 5, "verses": "2", "testament": "OT" },
+              { "t": "text", "v": "). Joseph with Mary went up to Bethlehem to be taxed and to fulfill prophecy (" },
+              { "t": "ref", "display": "Luke 2:1-7", "book": "Luke", "book_abbrev": "Luke", "chapter": 2, "verses": "1-7" },
+              { "t": "text", "v": ")." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Phil. 2:8, for point number IV: THE DEATH OF JESUS CHRIST.",
+            "next_roman": "IV",
+            "next_title": "THE DEATH OF JESUS CHRIST",
+            "next_reference": { "display": "Phil. 2:8", "book": "Philippians", "book_abbrev": "Phil.", "chapter": 2, "verses": "8" }
+          }
+        },
+        {
+          "roman": "IV",
+          "letter": "A",
+          "source_page": 345,
+          "primary_reference": { "display": "Phil. 2:8", "book": "Philippians", "book_abbrev": "Phil.", "chapter": 2, "verses": "8" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The death of Jesus Christ is mentioned more than 120 times in the New Testament and is spoken of many times by the prophets in the Old Testament." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The death of Jesus Christ was vicarious (" },
+              { "t": "ref", "display": "Matt. 20:28", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 20, "verses": "28" },
+              { "t": "text", "v": "). He was God’s substitute for sinners (" },
+              { "t": "ref", "display": "2 Cor. 5:21", "book": "2 Corinthians", "book_abbrev": "2 Cor.", "chapter": 5, "verses": "21" },
+              { "t": "text", "v": "). On the cross, Christ was made sin for the sinner. By faith in Him, the sinner is made righteous with the righteousness of God." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The death of Jesus Christ was natural (" },
+              { "t": "ref", "display": "John 19:31-37", "book": "John", "book_abbrev": "John", "chapter": 19, "verses": "31-37" },
+              { "t": "text", "v": "). By a natural death, we mean that His spirit and soul were separated from His body." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The death of Jesus Christ was unnatural (" },
+              { "t": "ref", "display": "Rom. 6:23", "book": "Romans", "book_abbrev": "Rom.", "chapter": 6, "verses": "23" },
+              { "t": "text", "v": "). By an unnatural death, we mean that since He was sinless, in that He “committed no sin” (" },
+              { "t": "ref", "display": "1 Pet. 2:22", "book": "1 Peter", "book_abbrev": "1 Pet.", "chapter": 2, "verses": "22" },
+              { "t": "text", "v": ")—had no sin (" },
+              { "t": "ref", "display": "1 John 3:5", "book": "1 John", "book_abbrev": "1 John", "chapter": 3, "verses": "5" },
+              { "t": "text", "v": ")—“knew no sin” (" },
+              { "t": "ref", "display": "2 Cor. 5:21", "book": "2 Corinthians", "book_abbrev": "2 Cor.", "chapter": 5, "verses": "21" },
+              { "t": "text", "v": ")—before He could die, He had to be “made sin for us.” Therefore, His death was unnatural." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The death of Jesus Christ was preternatural (" },
+              { "t": "ref", "display": "Rev. 13:8", "book": "Revelation", "book_abbrev": "Rev.", "chapter": 13, "verses": "8" },
+              { "t": "text", "v": "). By this, we mean that the death of Jesus Christ was not an afterthought with God; it was the forethought of God." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "The death of Jesus Christ was supernatural (" },
+              { "t": "ref", "display": "John 10:17, 18", "book": "John", "book_abbrev": "John", "chapter": 10, "verses": "17, 18" },
+              { "t": "text", "v": "). Jesus said, “No one takes [life] from Me.” Then He said, “I lay it down of Myself [supernaturally].” “I have power to take it again [supernaturally].” This He did on the cross, and three days and three nights later, He took life up again when He arose from the dead. Only God in the form of man could die a vicarious, natural, unnatural, preternatural, and supernatural death." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Matt. 28:1-20, for point number V: THE RESURRECTION OF JESUS CHRIST.",
+            "next_roman": "V",
+            "next_title": "THE RESURRECTION OF JESUS CHRIST",
+            "next_reference": { "display": "Matt. 28:1-20", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "1-20" }
+          }
+        },
+        {
+          "roman": "V",
+          "letter": "A",
+          "source_page": 59,
+          "primary_reference": { "display": "Matt. 28:1-20", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "1-20" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Jesus said, “I am the resurrection and the life” (" },
+              { "t": "ref", "display": "John 11:25", "book": "John", "book_abbrev": "John", "chapter": 11, "verses": "25" },
+              { "t": "text", "v": "). The resurrection of Jesus Christ was the doctrine of every disciple, the faith of every true believer, the courage of every martyr, the theme of every sermon, and the power of every evangelist." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Luke tells us that we have “many infallible proofs” of His resurrection (" },
+              { "t": "ref", "display": "Acts 1:3", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "3" },
+              { "t": "text", "v": "). Let us look at some of these “infallible proofs” according to eye witnesses:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "After His resurrection He appeared first to Mary Magdalene (" },
+              { "t": "ref", "display": "John 20:11-18", "book": "John", "book_abbrev": "John", "chapter": 20, "verses": "11-18" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "He appeared to the women returning from the tomb (" },
+              { "t": "ref", "display": "Matt. 28:5-10", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "5-10" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Then He appeared to Peter (" },
+              { "t": "ref", "display": "Luke 24:34", "book": "Luke", "book_abbrev": "Luke", "chapter": 24, "verses": "34" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "To the Emmaus disciples (" },
+              { "t": "ref", "display": "Luke 24:13-31", "book": "Luke", "book_abbrev": "Luke", "chapter": 24, "verses": "13-31" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "To the apostles, Thomas not present (" },
+              { "t": "ref", "display": "Luke 24:36-43", "book": "Luke", "book_abbrev": "Luke", "chapter": 24, "verses": "36-43" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Again to the apostles, Thomas present (" },
+              { "t": "ref", "display": "John 20:24-29", "book": "John", "book_abbrev": "John", "chapter": 20, "verses": "24-29" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "To the seven by the Sea of Tiberias (" },
+              { "t": "ref", "display": "John 21:1-23", "book": "John", "book_abbrev": "John", "chapter": 21, "verses": "1-23" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(8)", "runs": [
+              { "t": "text", "v": "To over five hundred brethren (" },
+              { "t": "ref", "display": "1 Cor. 15:6", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 15, "verses": "6" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(9)", "runs": [
+              { "t": "text", "v": "He was seen of James (" },
+              { "t": "ref", "display": "1 Cor. 15:7", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 15, "verses": "7" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(10)", "runs": [
+              { "t": "text", "v": "He was seen again by the eleven apostles (" },
+              { "t": "ref", "display": "Matt. 28:16-20", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "16-20" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Acts 1:3-12", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "3-12" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(11)", "runs": [
+              { "t": "text", "v": "He was seen of Stephen, the first martyr (" },
+              { "t": "ref", "display": "Acts 7:55", "book": "Acts", "book_abbrev": "Acts", "chapter": 7, "verses": "55" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(12)", "runs": [
+              { "t": "text", "v": "He was seen of Paul on his way to Damascus (" },
+              { "t": "ref", "display": "Acts 9:3-6", "book": "Acts", "book_abbrev": "Acts", "chapter": 9, "verses": "3-6" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "1 Cor. 15:8", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 15, "verses": "8" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Many of these eye witnesses died martyrs’ deaths because they preached the resurrection of Jesus Christ. They were glad to die for a living Christ. They had the “infallible proofs.”" }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "When Jesus was arrested in the Garden of Gethsemane, all of His disciples “forsook Him and fled” (" },
+              { "t": "ref", "display": "Matt. 26:56", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 26, "verses": "56" },
+              { "t": "text", "v": "). From this time until after His resurrection, the disciples lived in fear. They did not believe that He would rise from the dead (" },
+              { "t": "ref", "display": "John 20:9", "book": "John", "book_abbrev": "John", "chapter": 20, "verses": "9" },
+              { "t": "text", "v": "). Had Jesus not come from the dead, the cross would have been the end of Christianity. After the death of Jesus, we see His disciples dejected, discouraged, and defeated. The death of Jesus meant but one thing to them: the end. How do we account for the great change that came into their lives three days and three nights later? The only logical explanation is that they had the “infallible proofs” that He had risen from the dead, and was alive forevermore. They saw Him, talked with Him, touched Him, and ate with Him." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Now look at some “infallible proofs” according to circumstantial evidence:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The change that came into the lives of the disciples after the Resurrection—from fear to unlimited courage. They rejoiced in persecution (" },
+              { "t": "ref", "display": "Acts 5:40-42", "book": "Acts", "book_abbrev": "Acts", "chapter": 5, "verses": "40-42" },
+              { "t": "text", "v": "). They chose death, with faith in the resurrected Christ, rather than to deny that faith and be delivered (" },
+              { "t": "ref", "display": "Heb. 11:35", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 11, "verses": "35" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The early church began to worship on the first day of the week, the day of the Resurrection. It was not a law—it was spontaneous (" },
+              { "t": "ref", "display": "Acts 20:7", "book": "Acts", "book_abbrev": "Acts", "chapter": 20, "verses": "7" },
+              { "t": "text", "v": "). For almost two thousand years, the church has worshiped on the first day. For the Christian, every Sunday is Easter." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The early Christians went everywhere with the word of the Resurrection (" },
+              { "t": "ref", "display": "Acts 8:1-4", "book": "Acts", "book_abbrev": "Acts", "chapter": 8, "verses": "1-4" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The empty tomb—for if Jesus is not alive, what happened to His body? The Roman guards were paid to say, “His disciples came at night and stole Him " },
+              { "t": "italic", "v": "away" },
+              { "t": "text", "v": " while we slept” (verses 12, 13). First, the disciples lacked the courage. Had the disciples stolen His body, then how do you account for the fact that they all suffered, and most of them died martyrs’ deaths? In the face of death, one of them would have revealed the hiding place of the “stolen body” to save his own life. Second, no one was ever arrested or tried for stealing the body of Jesus. It is evident that the governing officials did not believe the story of the guards. Third, the guards could have been put to death for sleeping while on watch. Fourth, if they were asleep, how could they have known that it was the disciples who “stole” the body? Fifth, had the enemies of Jesus moved the body, they could have produced it and brought a quick end to Christianity; and they would have!" }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "The linen clothes found in the empty tomb are proof of the Resurrection (" },
+              { "t": "ref", "display": "John 20:1-10", "book": "John", "book_abbrev": "John", "chapter": 20, "verses": "1-10" },
+              { "t": "text", "v": "). Since Jesus had been dead three days and nights, neither friend nor foe stealing the body would have removed the linen clothes from Him. When John saw the linen clothes and recognized that they were folded the same as when they were wrapped about the body, he knew that a miracle had taken place. Jesus came out of the clothes, and they collapsed without disturbing the folds. They were left in the empty tomb as “infallible proof”; and when John saw and understood, he believed that Jesus had come from the dead." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Acts 1:9-11, for point number VI: THE ASCENSION AND SECOND COMING OF JESUS CHRIST.",
+            "next_roman": "VI",
+            "next_title": "THE ASCENSION AND SECOND COMING OF JESUS CHRIST",
+            "next_reference": { "display": "Acts 1:9-11", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "9-11" }
+          }
+        },
+        {
+          "roman": "VI",
+          "letter": "B",
+          "source_page": 204,
+          "primary_reference": { "display": "Acts 1:9-11", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "9-11" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "After forty days of instructing His disciples, the risen Christ ascended on high and is seated at the right hand of the Father (" },
+              { "t": "ref", "display": "Heb. 10:12", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 10, "verses": "12" },
+              { "t": "text", "v": "). Two men brought the message of His second coming to the apostles: “This " },
+              { "t": "italic", "v": "same" },
+              { "t": "text", "v": " Jesus, who was taken up from you into heaven, will so come in like manner as you saw Him go into heaven.” The message of the second coming of Jesus is so important that it is mentioned over three hundred times in the New Testament." }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "He is coming with His church to be with Him (" },
+              { "t": "ref", "display": "1 Thess. 4:16, 17", "book": "1 Thessalonians", "book_abbrev": "1 Thess.", "chapter": 4, "verses": "16, 17" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "John 14:1-6", "book": "John", "book_abbrev": "John", "chapter": 14, "verses": "1-6" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "He is coming to judge the nations (" },
+              { "t": "ref", "display": "Matt. 25:31-46", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 25, "verses": "31-46" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "He is coming to save Israel (" },
+              { "t": "ref", "display": "Rom. 11:25, 26", "book": "Romans", "book_abbrev": "Rom.", "chapter": 11, "verses": "25, 26" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "He is coming to sit upon the throne of David (" },
+              { "t": "ref", "display": "Luke 1:31-33", "book": "Luke", "book_abbrev": "Luke", "chapter": 1, "verses": "31-33" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Is. 9:6, 7 OT", "book": "Isaiah", "book_abbrev": "Is.", "chapter": 9, "verses": "6, 7", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "He is coming to bring righteous government to this earth (" },
+              { "t": "ref", "display": "Heb. 1:8", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 1, "verses": "8" },
+              { "t": "text", "v": "). Jesus Christ is coming back to this earth again. “Even so, come, Lord Jesus!” (" },
+              { "t": "ref", "display": "Rev. 22:20", "book": "Revelation", "book_abbrev": "Rev.", "chapter": 22, "verses": "20" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Now return to Master Study Outlines for lesson number four." }
+            ]}
+          ]
+        }
+      ]
     },
     {
       "number": 4,
