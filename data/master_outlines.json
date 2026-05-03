@@ -985,7 +985,325 @@
       "number": 4,
       "title": "The Holy Spirit",
       "summary": "MASTER OUTLINE NUMBER FOUR\nThe Holy Spirit\n\nThe Holy Spirit is God, and is equal to the Father and the Son. Don’t ever speak of Him as “It” or refer to Him as “an influence.” He is God the Holy Spirit, and is set forth in the Bible as being distinct from the Father and the Son. In the Genesis account of creation, He is seen actively engaged in the work of creation, along with the Father and the Son. In the Old Testament, He came upon men to empower them for service; but, when they were disobedient, He departed from them.\n\nWhen David sinned against the Lord, he prayed, “And do not take Your Holy Spirit from me” (Ps. 51:11 OT). In the New Testament, after Pentecost, we see the Holy Spirit indwelling the believer, never to leave him, filling and empowering him for service. The study of the person and work of the Holy Spirit is of utmost importance. A scriptural understanding of God the Holy Spirit will make you a better Christian and servant of God.\n\n  I. THE DEITY OF THE HOLY SPIRIT\n     (Now turn to Acts 5:3, 4.)\n II. THE EMBLEMS OF THE HOLY SPIRIT\n     (Now turn to Luke 3:16.)\nIII. SINS AGAINST THE HOLY SPIRIT\n     (Now turn to Matt. 12:31, 32.)\n IV. THE WORK OF THE HOLY SPIRIT\n     (Now turn to John 16:7-14.)\n  V. THE FRUIT OF THE HOLY SPIRIT\n     (Now turn to Gal. 5:22, 23.)",
-      "points": []
+      "points": [
+        {
+          "roman": "I",
+          "letter": "A",
+          "source_page": 213,
+          "primary_reference": { "display": "Acts 5:3, 4", "book": "Acts", "book_abbrev": "Acts", "chapter": 5, "verses": "3, 4" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "In dealing with Ananias, Peter revealed the deity of the Holy Spirit when he said, “Ananias, why has Satan filled your heart to lie to the Holy Spirit . . . You have not lied to men but to God.” In this Scripture it is very clear that the Holy Spirit is God, and He is co-equal, co-eternal, and co-existent with the Father and the Son. His deity is also set forth in that He possesses divine attributes:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "He is everywhere present in the universe (" },
+              { "t": "ref", "display": "Ps. 139:7-10 OT", "book": "Psalms", "book_abbrev": "Ps.", "chapter": 139, "verses": "7-10", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "He has all power (" },
+              { "t": "ref", "display": "Luke 1:35", "book": "Luke", "book_abbrev": "Luke", "chapter": 1, "verses": "35" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "He has all knowledge (" },
+              { "t": "ref", "display": "1 Cor. 2:10, 11", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 2, "verses": "10, 11" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "He is eternal (" },
+              { "t": "ref", "display": "Heb. 9:14", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 9, "verses": "14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "His deity is revealed in that His name is coupled in equality with the name of the Father and the Son:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "In the baptism of the believer (" },
+              { "t": "ref", "display": "Matt. 28:19", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 28, "verses": "19" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "In the apostolic benediction (" },
+              { "t": "ref", "display": "2 Cor. 13:14", "book": "2 Corinthians", "book_abbrev": "2 Cor.", "chapter": 13, "verses": "14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "His deity is seen in relation to the life and ministry of Jesus Christ:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Jesus was conceived by the Holy Spirit (" },
+              { "t": "ref", "display": "Luke 1:35", "book": "Luke", "book_abbrev": "Luke", "chapter": 1, "verses": "35" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "He was anointed by the Holy Spirit for service (" },
+              { "t": "ref", "display": "Acts 10:38", "book": "Acts", "book_abbrev": "Acts", "chapter": 10, "verses": "38" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "He was led by the Holy Spirit (" },
+              { "t": "ref", "display": "Matt. 4:1", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 4, "verses": "1" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "He was crucified in the power of the Holy Spirit (" },
+              { "t": "ref", "display": "Heb. 9:14", "book": "Hebrews", "book_abbrev": "Heb.", "chapter": 9, "verses": "14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "He was raised from the dead by the power of the Holy Spirit (" },
+              { "t": "ref", "display": "Rom. 8:11", "book": "Romans", "book_abbrev": "Rom.", "chapter": 8, "verses": "11" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Jesus gave commandments to the apostles and the church through the Holy Spirit (" },
+              { "t": "ref", "display": "Acts 1:2", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "2" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "If Jesus needed to depend solely upon the Holy Spirit during His life and ministry here on the earth, can we afford to do less?" }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Luke 3:16, for point number II: THE EMBLEMS OF THE HOLY SPIRIT.",
+            "next_roman": "II",
+            "next_title": "THE EMBLEMS OF THE HOLY SPIRIT",
+            "next_reference": { "display": "Luke 3:16", "book": "Luke", "book_abbrev": "Luke", "chapter": 3, "verses": "16" }
+          }
+        },
+        {
+          "roman": "II",
+          "letter": "A",
+          "source_page": 105,
+          "primary_reference": { "display": "Luke 3:16", "book": "Luke", "book_abbrev": "Luke", "chapter": 3, "verses": "16" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "It is often difficult to impart truth by the use of words. Frequently they reveal only a half-truth, leaving the other half hidden. The writers of the Bible used certain emblems when unfolding the mysteries of the Holy Spirit, because they illustrate more about Him than volumes can contain. They are:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Fire as an emblem (verse 16). Fire speaks of His consuming, purifying power in the life of the believer (" },
+              { "t": "ref", "display": "Acts 2:3", "book": "Acts", "book_abbrev": "Acts", "chapter": 2, "verses": "3" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Is. 6:1-7 OT", "book": "Isaiah", "book_abbrev": "Is.", "chapter": 6, "verses": "1-7", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Wind as an emblem (" },
+              { "t": "ref", "display": "John 3:8", "book": "John", "book_abbrev": "John", "chapter": 3, "verses": "8" },
+              { "t": "text", "v": "). Wind speaks of His hidden depth in His mighty regenerating power." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Water as an emblem (" },
+              { "t": "ref", "display": "John 7:37-39", "book": "John", "book_abbrev": "John", "chapter": 7, "verses": "37-39" },
+              { "t": "text", "v": "). Water speaks of His power to fill the believer to overflowing with spiritual life." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "Seal as an emblem (" },
+              { "t": "ref", "display": "Eph. 1:13", "book": "Ephesians", "book_abbrev": "Eph.", "chapter": 1, "verses": "13" },
+              { "t": "text", "v": "). Seal speaks of His ownership of the believer; it is a finished, eternal transaction." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "Oil as an emblem (" },
+              { "t": "ref", "display": "Acts 10:38", "book": "Acts", "book_abbrev": "Acts", "chapter": 10, "verses": "38" },
+              { "t": "text", "v": "). Oil speaks of His power to anoint for service." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Dove as an emblem (" },
+              { "t": "ref", "display": "Mark 1:10", "book": "Mark", "book_abbrev": "Mark", "chapter": 1, "verses": "10" },
+              { "t": "text", "v": "). The dove speaks of His gentle, tender, peaceful nature. We may know “the peace of God, which surpasses all understanding” (" },
+              { "t": "ref", "display": "Phil. 4:7", "book": "Philippians", "book_abbrev": "Phil.", "chapter": 4, "verses": "7" },
+              { "t": "text", "v": ") only when fully surrendered to God." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Matt. 12:31, 32 for point number III: SINS AGAINST THE HOLY SPIRIT.",
+            "next_roman": "III",
+            "next_title": "SINS AGAINST THE HOLY SPIRIT",
+            "next_reference": { "display": "Matt. 12:31, 32", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 12, "verses": "31, 32" }
+          }
+        },
+        {
+          "roman": "III",
+          "letter": "A",
+          "source_page": 22,
+          "primary_reference": { "display": "Matt. 12:31, 32", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 12, "verses": "31, 32" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "This is a solemn study, because the Holy Spirit is God and can be sinned against by both the believer and the unbeliever. May He help you search your heart as you consider:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "The sin of blaspheming the Holy Spirit (above verses 31, 32). This sin is committed by unbelievers. It is often called the “unpardonable sin.” It has no forgiveness. It was committed by the enemies of Jesus when they accused Him of casting out demons by the power of Satan (" },
+              { "t": "ref", "display": "Matt. 12:24", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 12, "verses": "24" },
+              { "t": "text", "v": ") when Jesus cast them out by the “Spirit of God” (" },
+              { "t": "ref", "display": "Matt. 12:28", "book": "Matthew", "book_abbrev": "Matt.", "chapter": 12, "verses": "28" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "The sin of resisting the Holy Spirit (" },
+              { "t": "ref", "display": "Acts 7:51", "book": "Acts", "book_abbrev": "Acts", "chapter": 7, "verses": "51" },
+              { "t": "text", "v": "). This sin is committed by the unbeliever when rejecting Jesus Christ as Savior and Lord." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "The sin of grieving the Holy Spirit (" },
+              { "t": "ref", "display": "Eph. 4:30-32", "book": "Ephesians", "book_abbrev": "Eph.", "chapter": 4, "verses": "30-32" },
+              { "t": "text", "v": "). This sin is committed by believers. He is grieved by us unless He controls our lives to the glory of Jesus Christ." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "The sin of quenching the Holy Spirit (" },
+              { "t": "ref", "display": "1 Thess. 5:19", "book": "1 Thessalonians", "book_abbrev": "1 Thess.", "chapter": 5, "verses": "19" },
+              { "t": "text", "v": "). This sin is committed by Christians when known sin is allowed to go unconfessed (" },
+              { "t": "ref", "display": "1 John 1:9", "book": "1 John", "book_abbrev": "1 John", "chapter": 1, "verses": "9" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Is. 59:1, 2 OT", "book": "Isaiah", "book_abbrev": "Is.", "chapter": 59, "verses": "1, 2", "testament": "OT" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "The sin of lying to the Holy Spirit (" },
+              { "t": "ref", "display": "Acts 5:1-11", "book": "Acts", "book_abbrev": "Acts", "chapter": 5, "verses": "1-11" },
+              { "t": "text", "v": "). The sin of Ananias and Sapphira was deception, born in jealousy. They tried to mock God (" },
+              { "t": "ref", "display": "Gal. 6:7", "book": "Galatians", "book_abbrev": "Gal.", "chapter": 6, "verses": "7" },
+              { "t": "text", "v": "). The Holy Spirit can be sinned against, because He is God." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to John 16:7-14, for point number IV: THE WORK OF THE HOLY SPIRIT.",
+            "next_roman": "IV",
+            "next_title": "THE WORK OF THE HOLY SPIRIT",
+            "next_reference": { "display": "John 16:7-14", "book": "John", "book_abbrev": "John", "chapter": 16, "verses": "7-14" }
+          }
+        },
+        {
+          "roman": "IV",
+          "letter": "A",
+          "source_page": 192,
+          "primary_reference": { "display": "John 16:7-14", "book": "John", "book_abbrev": "John", "chapter": 16, "verses": "7-14" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "In instructing His disciples, regarding the coming of the Holy Spirit, Jesus said, “. . . for if I do not go away, the Helper will not come to you; but if I depart, I will send Him to you. And when He has come, He will . . .”:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Convict men of the sin of unbelief (verse 9)." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Convict men that Jesus is the righteousness of God (verse 10; also " },
+              { "t": "ref", "display": "Rom. 10:3, 4", "book": "Romans", "book_abbrev": "Rom.", "chapter": 10, "verses": "3, 4" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Convict men that the power of Satan has been broken (verse 11)." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "Regenerate the believer (" },
+              { "t": "ref", "display": "John 3:5", "book": "John", "book_abbrev": "John", "chapter": 3, "verses": "5" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "Titus 3:5", "book": "Titus", "book_abbrev": "Titus", "chapter": 3, "verses": "5" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "Indwell the believer (" },
+              { "t": "ref", "display": "1 Cor. 6:19, 20", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 6, "verses": "19, 20" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Seal the believer (" },
+              { "t": "ref", "display": "Eph. 1:13, 14", "book": "Ephesians", "book_abbrev": "Eph.", "chapter": 1, "verses": "13, 14" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "Baptize the believer (" },
+              { "t": "ref", "display": "Acts 1:5", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "5" },
+              { "t": "text", "v": "; also " },
+              { "t": "ref", "display": "1 Cor. 12:13", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 12, "verses": "13" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(8)", "runs": [
+              { "t": "text", "v": "Infill the believer (" },
+              { "t": "ref", "display": "Eph. 5:18", "book": "Ephesians", "book_abbrev": "Eph.", "chapter": 5, "verses": "18" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(9)", "runs": [
+              { "t": "text", "v": "Empower the believer (" },
+              { "t": "ref", "display": "Acts 1:8", "book": "Acts", "book_abbrev": "Acts", "chapter": 1, "verses": "8" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(10)", "runs": [
+              { "t": "text", "v": "Lead the believer (" },
+              { "t": "ref", "display": "Gal. 5:16-18", "book": "Galatians", "book_abbrev": "Gal.", "chapter": 5, "verses": "16-18" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "subpoint", "label": "(11)", "runs": [
+              { "t": "text", "v": "Administer spiritual gifts to the believer (" },
+              { "t": "ref", "display": "1 Cor. 12:1-11", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 12, "verses": "1-11" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "The Holy Spirit came on the day of Pentecost, to remain with the church until it is complete and presented to the Lord Jesus at His coming. Just as Jesus Christ finished the work He came to do in the flesh, so the Holy Spirit will finish the work He came to do in the church." }
+            ]}
+          ],
+          "transition": {
+            "raw": "Now turn to Gal. 5:22, 23, for point number V: THE FRUIT OF THE HOLY SPIRIT.",
+            "next_roman": "V",
+            "next_title": "THE FRUIT OF THE HOLY SPIRIT",
+            "next_reference": { "display": "Gal. 5:22, 23", "book": "Galatians", "book_abbrev": "Gal.", "chapter": 5, "verses": "22, 23" }
+          }
+        },
+        {
+          "roman": "V",
+          "letter": "A",
+          "source_page": 332,
+          "primary_reference": { "display": "Gal. 5:22, 23", "book": "Galatians", "book_abbrev": "Gal.", "chapter": 5, "verses": "22, 23" },
+          "body": [
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "“The fruit of the Spirit is love.” Only as we live in love can we fulfill the will of God in our lives. The believer must become love-inspired, love-mastered, and love-driven (" },
+              { "t": "ref", "display": "2 Cor. 5:14", "book": "2 Corinthians", "book_abbrev": "2 Cor.", "chapter": 5, "verses": "14" },
+              { "t": "text", "v": "). Without the fruit of the Spirit (love), we are just a religious noise (" },
+              { "t": "ref", "display": "1 Cor. 13:1", "book": "1 Corinthians", "book_abbrev": "1 Cor.", "chapter": 13, "verses": "1" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "“The fruit of the Spirit is love,” and it is manifested in joy, peace, long-suffering, kindness, goodness, faithfulness, gentleness, and self-control:" }
+            ]},
+            { "type": "subpoint", "label": "(1)", "runs": [
+              { "t": "text", "v": "Joy is love’s strength." }
+            ]},
+            { "type": "subpoint", "label": "(2)", "runs": [
+              { "t": "text", "v": "Peace is love’s security." }
+            ]},
+            { "type": "subpoint", "label": "(3)", "runs": [
+              { "t": "text", "v": "Longsuffering is love’s patience." }
+            ]},
+            { "type": "subpoint", "label": "(4)", "runs": [
+              { "t": "text", "v": "Kindness is love’s conduct." }
+            ]},
+            { "type": "subpoint", "label": "(5)", "runs": [
+              { "t": "text", "v": "Goodness is love’s character." }
+            ]},
+            { "type": "subpoint", "label": "(6)", "runs": [
+              { "t": "text", "v": "Faithfulness is love’s confidence." }
+            ]},
+            { "type": "subpoint", "label": "(7)", "runs": [
+              { "t": "text", "v": "Gentleness is love’s humility." }
+            ]},
+            { "type": "subpoint", "label": "(8)", "runs": [
+              { "t": "text", "v": "Self-control is love’s victory." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "“Against such there is no law.”" }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "A Holy Spirit-controlled man needs no law to cause him to live a righteous life. The secret of a Spirit-controlled life is found in dedication to God (" },
+              { "t": "ref", "display": "Rom. 12:1, 2", "book": "Romans", "book_abbrev": "Rom.", "chapter": 12, "verses": "1, 2" },
+              { "t": "text", "v": "). Put your all on the altar, and the Holy Spirit will fill your heart with the love of God (" },
+              { "t": "ref", "display": "Rom. 5:5", "book": "Romans", "book_abbrev": "Rom.", "chapter": 5, "verses": "5" },
+              { "t": "text", "v": ")." }
+            ]},
+            { "type": "paragraph", "runs": [
+              { "t": "text", "v": "Now return to Master Study Outlines for lesson number five." }
+            ]}
+          ]
+        }
+      ]
     },
     {
       "number": 5,
