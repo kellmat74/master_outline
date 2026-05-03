@@ -15,6 +15,7 @@ export type Navigate = (s: Selection) => void;
 
 export default function App() {
   const [query, setQuery] = useState("");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selection, setSelection] = useState<Selection>(() =>
     doc.front_matter.length > 0
       ? { kind: "front", sectionIndex: 0 }
@@ -27,14 +28,25 @@ export default function App() {
 
   const navigate: Navigate = (s) => {
     setSelection(s);
-    // scroll the main pane to top on navigation
+    setSidebarOpen(false);
     const main = document.querySelector(".main");
     if (main) main.scrollTop = 0;
   };
 
   return (
     <div className="app">
-      <aside className="sidebar">
+      <div
+        className={`sidebar-backdrop${sidebarOpen ? " open" : ""}`}
+        onClick={() => setSidebarOpen(false)}
+      />
+      <button
+        className="sidebar-toggle"
+        aria-label={sidebarOpen ? "Close menu" : "Open menu"}
+        onClick={() => setSidebarOpen((v) => !v)}
+      >
+        {sidebarOpen ? "✕" : "☰"}
+      </button>
+      <aside className={`sidebar${sidebarOpen ? " open" : ""}`}>
         <header className="sidebar-header">
           <h1>{doc.title}</h1>
           <p className="compiler">{doc.compiler}</p>
