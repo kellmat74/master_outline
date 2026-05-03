@@ -4,13 +4,13 @@ This file is the source of truth for what has been transcribed and what's next. 
 
 ## Current state
 
-**All 15 outlines transcribed and the JSON validates against the schema.** Front-matter blobs (Outline Zero, Index, How to Use) are in place; per-outline summary blobs and structured points are in place for outlines 1–15.
+**All 15 outlines transcribed and the JSON validates against the schema.** Front-matter blobs (opening master outline, Index, How to Use) are in place; per-outline summary blobs and structured points are in place for outlines 1–15.
 
 The web viewer renders blob front-matter and per-outline summaries. The Index of Master Outlines blob renders as a clickable list — each outline title links to its overview. Each point's closing transition makes the next-point reference and title clickable, navigating to the next point (or, on the last point of an outline, to the next outline's overview).
 
 ## Outline checklist
 
-- [x] Front-matter blobs — Outline Zero (xvii–xxiv), Index (xxv), How to Use the Outline (xxvii–xxviii top)
+- [x] Front-matter blobs — opening master outline (xvii–xxiv), Index (xxv), How to Use the Outline (xxvii–xxviii top)
 - [x] **Outline 1** — *The Bible—The Word of God* — signed off
 - [x] **Outline 2** — *God*
 - [x] **Outline 3** — *Jesus Christ—The Son of God*
@@ -38,7 +38,7 @@ The web viewer renders blob front-matter and per-outline summaries. The Index of
 | PDF | Page range | Content |
 |---|---|---|
 | part1 | p-01 to p-03 | Title / copyright / acknowledgments (intentionally not transcribed) |
-| part1 | p-04 to p-08 left | Outline Zero — *What the CLNT Can Do for You* + *AS A MAN THINKS* (xvii–xxiv) |
+| part1 | p-04 to p-08 left | Opening master outline — *What the CLNT Can Do for You* + *AS A MAN THINKS* (xvii–xxiv) |
 | part1 | p-08 right | Index of Master Outlines (xxv) |
 | part1 | p-09 to p-10 top | How to Use the Outline / *CHRISTIAN LIFE STUDY OUTLINES AND NOTES* (xxvii–xxviii top) |
 | part1 | p-10 bottom to p-18 | Per-outline summary blobs for outlines 1–15 (xxviii–xliv) |
