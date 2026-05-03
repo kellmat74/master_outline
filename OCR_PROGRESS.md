@@ -31,7 +31,7 @@ The web viewer renders blob front-matter and per-outline summaries. The Index of
 
 - **Italic decisions are conservative.** I marked italics where they were unambiguous from the scan; on borderline cases I left text plain rather than guess. A second pass with the printed copy would catch any I missed.
 - **`(B)` letter suffixes** appear on a handful of points (Outline 2 IV, Outline 3 VI, Outline 13 II) where Barrington apparently keyed an alternate footnote letter. Schema accepts any single uppercase, so these are preserved verbatim.
-- **`pages/part2/p-73.png` is a duplicate** of `p-72.png` (both scans of printed page 353); it can be deleted. The supplementary single-page scan of printed page 207 lives at `pages/part2/p-72b-page207.png` and contains the opening of Outline 15, Point VII.
+- **`pages/part2/p-73.png` is a duplicate** of `p-72.png` (both scans of printed page 353); it can be deleted. The supplementary single-page scan of printed page 207 lives at `pages/part2/p-80b-page207.png` (slotted between p-80 = printed page 460 and p-81 = printed page 208 to match reading order).
 
 ## Page-to-outline map (Part 1 + Part 2)
 
