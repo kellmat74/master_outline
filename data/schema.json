@@ -81,10 +81,9 @@
     "Point": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["roman", "letter", "source_page", "primary_reference", "body"],
+      "required": ["roman", "source_page", "primary_reference", "body"],
       "properties": {
         "roman": { "type": "string", "pattern": "^[IVX]+$" },
-        "letter": { "type": "string", "pattern": "^[A-Z]$" },
         "source_page": { "type": "integer", "minimum": 1 },
         "primary_reference": { "$ref": "#/$defs/Reference" },
         "body": {

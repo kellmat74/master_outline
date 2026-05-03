@@ -119,9 +119,7 @@ export default function App() {
                             })
                           }
                         >
-                          {p.roman}
-                          {p.letter && p.letter !== "A" ? `(${p.letter})` : ""} —{" "}
-                          {p.primary_reference.display}
+                          {p.roman} — {p.primary_reference.display}
                         </button>
                       </li>
                     ))}

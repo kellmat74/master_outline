@@ -104,8 +104,6 @@ export interface Transition {
 export interface Point {
   /** Roman numeral of the point: "I", "II", "III", etc. */
   roman: string;
-  /** Letter suffix; in this work always "A". */
-  letter: string;
   /** Physical page number in the printed book where this point lives. */
   source_page: number;
   /** Primary scripture reference associated with this point's location. */

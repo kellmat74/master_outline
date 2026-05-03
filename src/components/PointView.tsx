@@ -17,8 +17,7 @@ export default function PointView({ outline, point, onNavigateNext }: Props) {
           {outline.title ? ` — ${outline.title}` : ""}
         </p>
         <h2>
-          {point.roman}
-          {point.letter && point.letter !== "A" ? `(${point.letter})` : "(A)"}{" "}
+          {point.roman}{" "}
           <span className="primary-ref">
             <RunView run={{ t: "ref", ...point.primary_reference }} />
           </span>
