@@ -1,0 +1,27 @@
+{
+  "name": "master-outline",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Personal Bible-study viewer for Porter Barrington's Fifteen Master Outlines",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "validate": "ajv validate -s data/schema.json -d data/master_outlines.json --spec=draft2020 --strict=false",
+    "validate:refs": "node scripts/validate_refs.mjs",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "ajv-cli": "^5.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

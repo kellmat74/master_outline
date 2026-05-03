@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://master-outline.local/schema.json",
+  "title": "Master Outline Document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "compiler",
+    "edition",
+    "source_copyright_notice",
+    "front_matter",
+    "outlines"
+  ],
+  "properties": {
+    "title": { "type": "string" },
+    "compiler": { "type": "string" },
+    "edition": { "type": "string" },
+    "source_copyright_notice": { "type": "string" },
+    "front_matter": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/FrontMatterSection" }
+    },
+    "outlines": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Outline" }
+    }
+  },
+  "$defs": {
+    "FrontMatterSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "title", "source_pages", "body"],
+      "properties": {
+        "kind": { "const": "section" },
+        "title": { "type": "string" },
+        "source_pages": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "body": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Block" }
+        }
+      }
+    },
+    "Outline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["number", "title", "points"],
+      "properties": {
+        "number": { "type": "integer", "minimum": 1, "maximum": 15 },
+        "title": { "type": "string" },
+        "points": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Point" }
+        }
+      }
+    },
+    "Point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["roman", "letter", "source_page", "primary_reference", "body"],
+      "properties": {
+        "roman": { "type": "string", "pattern": "^[IVX]+$" },
+        "letter": { "type": "string", "pattern": "^[A-Z]$" },
+        "source_page": { "type": "integer", "minimum": 1 },
+        "primary_reference": { "$ref": "#/$defs/Reference" },
+        "body": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Block" }
+        },
+        "transition": { "$ref": "#/$defs/Transition" }
+      }
+    },
+    "Reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["display", "book", "book_abbrev", "chapter", "verses"],
+      "properties": {
+        "display": { "type": "string" },
+        "book": { "type": "string" },
+        "book_abbrev": { "type": "string" },
+        "chapter": { "type": "integer", "minimum": 1 },
+        "verses": { "type": "string" },
+        "testament": { "enum": ["OT"] }
+      }
+    },
+    "Transition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw", "next_roman", "next_title", "next_reference"],
+      "properties": {
+        "raw": { "type": "string" },
+        "next_roman": { "type": "string", "pattern": "^[IVX]+$" },
+        "next_title": { "type": "string" },
+        "next_reference": { "$ref": "#/$defs/Reference" }
+      }
+    },
+    "Block": {
+      "oneOf": [
+        { "$ref": "#/$defs/Paragraph" },
+        { "$ref": "#/$defs/Subpoint" },
+        { "$ref": "#/$defs/QuoteBlock" }
+      ]
+    },
+    "Paragraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "runs"],
+      "properties": {
+        "type": { "const": "paragraph" },
+        "runs": { "type": "array", "items": { "$ref": "#/$defs/Run" } }
+      }
+    },
+    "Subpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "label", "runs"],
+      "properties": {
+        "type": { "const": "subpoint" },
+        "label": { "type": "string" },
+        "runs": { "type": "array", "items": { "$ref": "#/$defs/Run" } }
+      }
+    },
+    "QuoteBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "runs"],
+      "properties": {
+        "type": { "const": "quote" },
+        "runs": { "type": "array", "items": { "$ref": "#/$defs/Run" } }
+      }
+    },
+    "Run": {
+      "oneOf": [
+        { "$ref": "#/$defs/TextRun" },
+        { "$ref": "#/$defs/ItalicRun" },
+        { "$ref": "#/$defs/SmallCapsRun" },
+        { "$ref": "#/$defs/ReferenceRun" }
+      ]
+    },
+    "TextRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["t", "v"],
+      "properties": {
+        "t": { "const": "text" },
+        "v": { "type": "string" }
+      }
+    },
+    "ItalicRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["t", "v"],
+      "properties": {
+        "t": { "const": "italic" },
+        "v": { "type": "string" }
+      }
+    },
+    "SmallCapsRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["t", "v"],
+      "properties": {
+        "t": { "const": "smallcaps" },
+        "v": { "type": "string" }
+      }
+    },
+    "ReferenceRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["t", "display", "book", "book_abbrev", "chapter", "verses"],
+      "properties": {
+        "t": { "const": "ref" },
+        "display": { "type": "string" },
+        "book": { "type": "string" },
+        "book_abbrev": { "type": "string" },
+        "chapter": { "type": "integer", "minimum": 1 },
+        "verses": { "type": "string" },
+        "testament": { "enum": ["OT"] }
+      }
+    }
+  }
+}

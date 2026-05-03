@@ -1,0 +1,25 @@
+# Source scans — copyrighted, large, and not source-of-truth
+source/*.pdf
+source/*.PDF
+
+# Pre-extracted page images — derivative of source PDFs
+pages/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+tsconfig.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local-only env / config
+.env
+.env.local
