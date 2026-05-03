@@ -29,9 +29,9 @@ The web viewer renders blob front-matter and per-outline summaries. The Index of
 
 ## Open issues
 
-- **Page 207 (Outline 15, Point VII opening) is missing from the scans.** `pages/part2/p-72.png` and `pages/part2/p-73.png` are duplicate scans of page 353 (II(A) continuation), and page 207 — the opening of Point VII (HOW TO FOLLOW UP) — does not appear anywhere in `pages/part2/`. Point VII's body in the JSON begins partway through with a flag note. To resolve: re-rasterize Part 2 PDF page that maps to printed page 207, or take a one-page replacement scan and add it to `pages/part2/` (it can replace one of the duplicate p-72/p-73 files). Then transcribe the opening into `outlines[14].points[6].body`.
 - **Italic decisions are conservative.** I marked italics where they were unambiguous from the scan; on borderline cases I left text plain rather than guess. A second pass with the printed copy would catch any I missed.
 - **`(B)` letter suffixes** appear on a handful of points (Outline 2 IV, Outline 3 VI, Outline 13 II) where Barrington apparently keyed an alternate footnote letter. Schema accepts any single uppercase, so these are preserved verbatim.
+- **`pages/part2/p-73.png` is a duplicate** of `p-72.png` (both scans of printed page 353); it can be deleted. The supplementary single-page scan of printed page 207 lives at `pages/part2/p-72b-page207.png` and contains the opening of Outline 15, Point VII.
 
 ## Page-to-outline map (Part 1 + Part 2)
 
