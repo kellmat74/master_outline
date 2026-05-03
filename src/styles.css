@@ -203,6 +203,47 @@ body {
   white-space: pre-wrap;
 }
 
+/* ---------- Inline link buttons (Index entries, transitions) ---------- */
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--accent);
+  cursor: pointer;
+  text-align: left;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}
+
+.transition-link {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.index-blob .blob-paragraph {
+  margin: 0 0 0.25rem 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.index-leader {
+  white-space: pre;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+.index-link {
+  font-weight: 500;
+}
+
 /* ---------- Print ---------- */
 
 @media print {
