@@ -209,7 +209,7 @@ export default function App() {
             </button>
             <a
               className="download-pdf-btn"
-              href="/master_outlines_study_guide.pdf"
+              href={`${import.meta.env.BASE_URL}master_outlines_study_guide.pdf`}
               download
             >
               Download Study Guide PDF
