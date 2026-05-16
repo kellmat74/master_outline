@@ -8,6 +8,7 @@ import { VerseContext } from "./VerseContext";
 const doc = data as Document;
 
 export type Selection =
+  | { kind: "landing" }
   | { kind: "front"; sectionIndex: number }
   | { kind: "summary"; outlineIndex: number }
   | { kind: "point"; outlineIndex: number; pointIndex: number }
@@ -19,13 +20,7 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeVerse, setActiveVerse] = useState<Reference | null>(null);
-  const [selection, setSelection] = useState<Selection>(() =>
-    doc.front_matter.length > 0
-      ? { kind: "front", sectionIndex: 0 }
-      : doc.outlines.length > 0
-      ? { kind: "summary", outlineIndex: 0 }
-      : { kind: "empty" },
-  );
+  const [selection, setSelection] = useState<Selection>({ kind: "landing" });
 
   const filtered = useMemo(() => filterOutlines(doc.outlines, query), [query]);
 
@@ -52,7 +47,14 @@ export default function App() {
       </button>
       <aside className={`sidebar${sidebarOpen ? " open" : ""}`}>
         <header className="sidebar-header">
-          <h1>{doc.title}</h1>
+          <h1>
+            <button
+              className={`sidebar-title-btn${selection.kind === "landing" ? " selected" : ""}`}
+              onClick={() => navigate({ kind: "landing" })}
+            >
+              {doc.title}
+            </button>
+          </h1>
           <p className="compiler">{doc.compiler}</p>
           <input
             type="search"
@@ -168,6 +170,10 @@ function SelectionView({
   selection: Selection;
   navigate: Navigate;
 }) {
+  if (selection.kind === "landing") {
+    return <LandingPage navigate={navigate} />;
+  }
+
   if (selection.kind === "empty") {
     return (
       <div className="placeholder">
@@ -258,6 +264,109 @@ function SelectionView({
           : undefined
       }
     />
+  );
+}
+
+// ── Landing page ──────────────────────────────────────────────────────────
+
+const TOPICS = [
+  { n: 1,  label: "The Bible",          sub: "The Word of God" },
+  { n: 2,  label: "God",                sub: "His nature & attributes" },
+  { n: 3,  label: "Jesus Christ",       sub: "The Son of God" },
+  { n: 4,  label: "The Holy Spirit",    sub: "His person & work" },
+  { n: 5,  label: "Sin",                sub: "Its nature & consequences" },
+  { n: 6,  label: "Judgments",          sub: "God's justice" },
+  { n: 7,  label: "Rewards",            sub: "Faithful living" },
+  { n: 8,  label: "The Church",         sub: "The body of Christ" },
+  { n: 9,  label: "Prayer",             sub: "Communicating with God" },
+  { n: 10, label: "Faith",              sub: "Trust & assurance" },
+  { n: 11, label: "The Abundant Life",  sub: "Living fully in Christ" },
+  { n: 12, label: "Repentance",         sub: "Turning back to God" },
+  { n: 13, label: "The New Birth",      sub: "Born again" },
+  { n: 14, label: "God's Plan",         sub: "Salvation explained" },
+  { n: 15, label: "Witnessing",         sub: "Sharing your faith" },
+];
+
+function LandingPage({ navigate }: { navigate: Navigate }) {
+  const firstOutlineIdx = 0;
+  const introSectionIdx = doc.front_matter.findIndex((s) =>
+    /What the Christian Life/i.test(s.title)
+  );
+
+  return (
+    <div className="landing">
+      {/* Hero — mirrors the PDF cover */}
+      <div className="landing-hero">
+        <div className="landing-rule" />
+        <h1 className="landing-title">The Christian Life<br />New Testament</h1>
+        <p className="landing-subtitle">Fifteen Master Outlines</p>
+        <div className="landing-rule" />
+        <p className="landing-compiler">Compiled by {doc.compiler}</p>
+        <p className="landing-edition">{doc.edition}</p>
+      </div>
+
+      {/* Modern pitch */}
+      <div className="landing-pitch">
+        <div className="landing-pitch-grid">
+          <div className="landing-pitch-card">
+            <span className="landing-pitch-icon">📖</span>
+            <strong>Doctrine made clear</strong>
+            <p>15 structured studies on the core beliefs of the Christian faith — from the Bible's authority to witnessing — built directly from scripture.</p>
+          </div>
+          <div className="landing-pitch-card">
+            <span className="landing-pitch-icon">🔗</span>
+            <strong>Every verse at your fingertips</strong>
+            <p>Tap any scripture reference to read the passage in the NLT, with surrounding context and a full-chapter view.</p>
+          </div>
+          <div className="landing-pitch-card">
+            <span className="landing-pitch-icon">🧭</span>
+            <strong>Designed to be followed in order</strong>
+            <p>Each outline builds on the last. Start with Outline 1 and follow the links — the path is laid out for you.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Topic grid */}
+      <div className="landing-topics">
+        <h2 className="landing-section-heading">The 15 Outlines</h2>
+        <div className="landing-topic-grid">
+          {TOPICS.map((t) => {
+            const outlineIdx = doc.outlines.findIndex((o) => o.number === t.n);
+            return (
+              <button
+                key={t.n}
+                className="landing-topic-card"
+                onClick={() => navigate({ kind: "summary", outlineIndex: outlineIdx })}
+              >
+                <span className="landing-topic-num">{t.n}</span>
+                <span className="landing-topic-label">{t.label}</span>
+                <span className="landing-topic-sub">{t.sub}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* CTAs */}
+      <div className="landing-ctas">
+        <button
+          className="nav-btn landing-cta-primary"
+          onClick={() => navigate({ kind: "summary", outlineIndex: firstOutlineIdx })}
+        >
+          Start with Outline 1 →
+        </button>
+        {introSectionIdx >= 0 && (
+          <button
+            className="landing-cta-secondary"
+            onClick={() => navigate({ kind: "front", sectionIndex: introSectionIdx })}
+          >
+            Read Porter Barrington's introduction
+          </button>
+        )}
+      </div>
+
+      <p className="landing-copyright">{doc.source_copyright_notice}</p>
+    </div>
   );
 }
 
