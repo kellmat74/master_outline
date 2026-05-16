@@ -1,4 +1,5 @@
-import type { Block, Outline, Point, Run } from "../types";
+import type { Block, Outline, Point, Reference, Run } from "../types";
+import { useOpenVerse } from "../VerseContext";
 
 interface Props {
   outline: Outline;
@@ -135,6 +136,7 @@ function RunsView({ runs }: { runs: Run[] }) {
 }
 
 function RunView({ run }: { run: Run }) {
+  const openVerse = useOpenVerse();
   switch (run.t) {
     case "text":
       return <>{run.v}</>;
@@ -142,14 +144,24 @@ function RunView({ run }: { run: Run }) {
       return <em>{run.v}</em>;
     case "smallcaps":
       return <span className="smallcaps">{run.v}</span>;
-    case "ref":
+    case "ref": {
+      const ref: Reference = {
+        display: run.display,
+        book: run.book,
+        book_abbrev: run.book_abbrev,
+        chapter: run.chapter,
+        verses: run.verses,
+        ...(run.testament ? { testament: run.testament } : {}),
+      };
       return (
-        <em
-          className="scripture-ref"
-          title={`${run.book} ${run.chapter}:${run.verses}${run.testament ? ` (${run.testament})` : ""}`}
+        <button
+          className="scripture-ref-btn"
+          onClick={() => openVerse(ref)}
+          title={`Open ${run.display} in NLT`}
         >
           {run.display}
-        </em>
+        </button>
       );
+    }
   }
 }

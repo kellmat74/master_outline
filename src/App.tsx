@@ -1,7 +1,9 @@
 import { useMemo, useState } from "react";
 import data from "../data/master_outlines.json";
-import type { Document, FrontMatterSection, Outline, Point } from "./types";
+import type { Document, FrontMatterSection, Outline, Point, Reference } from "./types";
 import PointView from "./components/PointView";
+import VersePopup from "./components/VersePopup";
+import { VerseContext } from "./VerseContext";
 
 const doc = data as Document;
 
@@ -16,6 +18,7 @@ export type Navigate = (s: Selection) => void;
 export default function App() {
   const [query, setQuery] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [activeVerse, setActiveVerse] = useState<Reference | null>(null);
   const [selection, setSelection] = useState<Selection>(() =>
     doc.front_matter.length > 0
       ? { kind: "front", sectionIndex: 0 }
@@ -34,6 +37,7 @@ export default function App() {
   };
 
   return (
+    <VerseContext.Provider value={setActiveVerse}>
     <div className="app">
       <div
         className={`sidebar-backdrop${sidebarOpen ? " open" : ""}`}
@@ -147,6 +151,13 @@ export default function App() {
         <SelectionView selection={selection} navigate={navigate} />
       </main>
     </div>
+    {activeVerse && (
+      <VersePopup
+        reference={activeVerse}
+        onClose={() => setActiveVerse(null)}
+      />
+    )}
+    </VerseContext.Provider>
   );
 }
 
