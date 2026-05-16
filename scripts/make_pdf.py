@@ -324,13 +324,18 @@ def make_cover():
 
 # ── front matter ───────────────────────────────────────────────────────────
 
-def blob_to_paragraphs(text, style=None):
+def blob_to_paragraphs(text, style=None, strip_nav_hints=False):
     """Convert a plain-text blob (double-newline paragraphs) to flowables."""
+    import re
     if style is None:
         style = STYLES["blob"]
     paras = []
     for para in text.split("\n\n"):
         lines = para.split("\n")
+        if strip_nav_hints:
+            lines = [l for l in lines if not re.match(r'^\s*\(Now turn to ', l, re.IGNORECASE)]
+        if not any(l.strip() for l in lines):
+            continue
         # Detect indented lines (leading spaces)
         if lines and lines[0].startswith("  "):
             use_style = STYLES["blob_indent"]
@@ -393,7 +398,7 @@ def make_outline(outline):
 
     # ── summary blob ────────────────────────────────────────────────────
     if outline.get("summary"):
-        header_items.extend(blob_to_paragraphs(outline["summary"], STYLES["summary_body"]))
+        header_items.extend(blob_to_paragraphs(outline["summary"], STYLES["summary_body"], strip_nav_hints=True))
         header_items.append(rule(color=LTGRAY, space_before=8, space_after=8))
 
     story.extend(header_items)

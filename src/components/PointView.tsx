@@ -7,9 +7,11 @@ interface Props {
   /** When set, the closing transition becomes a clickable link to the next
    *  point (or, on the last point of an outline, the next outline's overview). */
   onNavigateNext?: () => void;
+  /** When set (last point of an outline), renders a "Next lesson" nav button. */
+  nextOutline?: { number: number; title: string; onNavigate: () => void };
 }
 
-export default function PointView({ outline, point, onNavigateNext }: Props) {
+export default function PointView({ outline, point, onNavigateNext, nextOutline }: Props) {
   return (
     <article className="point">
       <header className="point-header">
@@ -40,6 +42,14 @@ export default function PointView({ outline, point, onNavigateNext }: Props) {
             />
           </p>
         </footer>
+      )}
+
+      {nextOutline && (
+        <div className="nav-footer">
+          <button className="nav-btn" onClick={nextOutline.onNavigate}>
+            Next Lesson — Outline {nextOutline.number}: {nextOutline.title} →
+          </button>
+        </div>
       )}
     </article>
   );

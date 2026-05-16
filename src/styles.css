@@ -283,6 +283,35 @@ body {
   font-weight: 500;
 }
 
+/* ---------- Navigation footer buttons ---------- */
+
+.nav-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 1.1rem;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  transition: opacity 0.15s;
+}
+
+.nav-btn:hover {
+  opacity: 0.88;
+}
+
 /* ---------- Scripture ref buttons ---------- */
 
 .scripture-ref-btn {
@@ -433,19 +462,23 @@ body {
 }
 
 .verse-expand-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  font: inherit;
-  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--selected-bg);
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  padding: 0.35rem 0.8rem;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
   color: var(--accent);
   cursor: pointer;
-  text-decoration: underline dotted;
-  text-underline-offset: 2px;
+  transition: background 0.15s;
 }
 
 .verse-expand-btn:hover {
-  text-decoration: underline solid;
+  background: #e0d8c4;
 }
 
 /* Taller dialog in chapter mode */

@@ -196,24 +196,21 @@ function SelectionView({
           </p>
           <h2>Overview</h2>
         </header>
-        <BlobText text={outline.summary ?? ""} />
+        <BlobText text={outline.summary ?? ""} stripNavHints />
         {outline.points.length > 0 && (
-          <footer className="transition">
-            <p>
-              Begin study with point I:{" "}
-              <button
-                className="link-button"
-                onClick={() =>
-                  navigate({
-                    kind: "point",
-                    outlineIndex: selection.outlineIndex,
-                    pointIndex: 0,
-                  })
-                }
-              >
-                {outline.points[0].primary_reference.display}
-              </button>
-            </p>
+          <footer className="nav-footer">
+            <button
+              className="nav-btn"
+              onClick={() =>
+                navigate({
+                  kind: "point",
+                  outlineIndex: selection.outlineIndex,
+                  pointIndex: 0,
+                })
+              }
+            >
+              Begin Study — Point I: {outline.points[0].primary_reference.display} →
+            </button>
           </footer>
         )}
       </article>
@@ -222,24 +219,42 @@ function SelectionView({
 
   const outline = doc.outlines[selection.outlineIndex];
   const point = outline.points[selection.pointIndex];
+  const isLastPoint = selection.pointIndex + 1 >= outline.points.length;
+  const nextOutline = isLastPoint && selection.outlineIndex + 1 < doc.outlines.length
+    ? doc.outlines[selection.outlineIndex + 1]
+    : null;
+
   return (
     <PointView
       outline={outline}
       point={point}
       onNavigateNext={
-        selection.pointIndex + 1 < outline.points.length
+        !isLastPoint
           ? () =>
               navigate({
                 kind: "point",
                 outlineIndex: selection.outlineIndex,
                 pointIndex: selection.pointIndex + 1,
               })
-          : selection.outlineIndex + 1 < doc.outlines.length
+          : nextOutline
           ? () =>
               navigate({
                 kind: "summary",
                 outlineIndex: selection.outlineIndex + 1,
               })
+          : undefined
+      }
+      nextOutline={
+        nextOutline
+          ? {
+              number: nextOutline.number,
+              title: nextOutline.title,
+              onNavigate: () =>
+                navigate({
+                  kind: "summary",
+                  outlineIndex: selection.outlineIndex + 1,
+                }),
+            }
           : undefined
       }
     />
@@ -314,20 +329,26 @@ function IndexBlob({ text, navigate }: { text: string; navigate: Navigate }) {
   );
 }
 
-function BlobText({ text }: { text: string }) {
+function BlobText({ text, stripNavHints = false }: { text: string; stripNavHints?: boolean }) {
   const paragraphs = text.split(/\n\n+/);
   return (
     <div className="blob-text">
-      {paragraphs.map((p, i) => (
-        <p key={i} className="blob-paragraph">
-          {p.split("\n").map((line, j, arr) => (
-            <span key={j}>
-              {line}
-              {j < arr.length - 1 && <br />}
-            </span>
-          ))}
-        </p>
-      ))}
+      {paragraphs.map((p, i) => {
+        const lines = p.split("\n").filter(
+          (line) => !(stripNavHints && /^\s*\(Now turn to /i.test(line))
+        );
+        if (lines.every((l) => !l.trim())) return null;
+        return (
+          <p key={i} className="blob-paragraph">
+            {lines.map((line, j, arr) => (
+              <span key={j}>
+                {line}
+                {j < arr.length - 1 && <br />}
+              </span>
+            ))}
+          </p>
+        );
+      })}
     </div>
   );
 }
