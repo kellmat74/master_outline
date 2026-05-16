@@ -426,6 +426,33 @@ body {
   font-family: var(--serif);
 }
 
+.verse-dialog-footer {
+  padding: 0.6rem 1rem;
+  border-top: 1px solid var(--rule);
+  flex-shrink: 0;
+}
+
+.verse-expand-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+.verse-expand-btn:hover {
+  text-decoration: underline solid;
+}
+
+/* Taller dialog in chapter mode */
+.verse-dialog--chapter {
+  max-height: 92vh;
+}
+
 .verse-loading,
 .verse-error {
   font-style: italic;

@@ -142,6 +142,42 @@ function parseNLTHtml(
 
 const CACHE_PREFIX = "nlt_v1_";
 
+/** Build an NLT API ref string for the full chapter containing a Reference. */
+export function buildChapterRef(ref: Reference): string {
+  const apiBook = BOOK_MAP[ref.book];
+  if (!apiBook) throw new Error(`Unknown book: ${ref.book}`);
+  return `${apiBook}.${ref.chapter}`;
+}
+
+export async function fetchChapter(ref: Reference): Promise<FetchedPassage> {
+  const { start, end } = parseVerseRange(ref.verses);
+  const apiRef = buildChapterRef(ref);
+  const cacheKey = CACHE_PREFIX + apiRef;
+
+  try {
+    const cached = sessionStorage.getItem(cacheKey);
+    if (cached) {
+      const { html } = JSON.parse(cached) as { html: string };
+      return parseNLTHtml(html, start, end);
+    }
+  } catch {
+    // ignore
+  }
+
+  const url = `https://api.nlt.to/api/passages?ref=${encodeURIComponent(apiRef)}&key=TEST`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`NLT API error: ${res.status}`);
+  const html = await res.text();
+
+  try {
+    sessionStorage.setItem(cacheKey, JSON.stringify({ html }));
+  } catch {
+    // Storage full — ignore
+  }
+
+  return parseNLTHtml(html, start, end);
+}
+
 export async function fetchPassage(ref: Reference): Promise<FetchedPassage> {
   const { start, end } = parseVerseRange(ref.verses);
   const apiRef = buildNLTRef(ref);
