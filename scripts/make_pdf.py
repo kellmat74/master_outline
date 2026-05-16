@@ -30,7 +30,7 @@ from reportlab.platypus.flowables import Flowable
 # ── paths ──────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "master_outlines.json"
-OUT_DIR = ROOT / "pdf"
+OUT_DIR = ROOT / "public"
 OUT_DIR.mkdir(exist_ok=True)
 OUT = OUT_DIR / "master_outlines_study_guide.pdf"
 

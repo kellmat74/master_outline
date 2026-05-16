@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { fetchPassage, fetchChapter } from "../lib/nlt";
+import { fetchPassage, fetchChapter } from "../lib/verses";
+import { useVerseContext } from "../VerseContext";
 import type { Reference } from "../types";
+import type { FetchedPassage } from "../lib/verses";
 
 type Mode = "passage" | "chapter";
 
@@ -15,6 +17,7 @@ interface Props {
 }
 
 export default function VersePopup({ reference, onClose }: Props) {
+  const { translation } = useVerseContext();
   const [mode, setMode] = useState<Mode>("passage");
   const [state, setState] = useState<FetchState>({ status: "loading" });
 
@@ -22,25 +25,21 @@ export default function VersePopup({ reference, onClose }: Props) {
   const bodyRef = useRef<HTMLDivElement>(null);
   const firstCitedRef = useRef<HTMLParagraphElement>(null);
 
-  // Fetch whenever reference or mode changes
+  // Load verse data (synchronous from static JSON, but kept async-shaped for
+  // consistent state handling and to allow easy future changes)
   useEffect(() => {
     setState({ status: "loading" });
-    let cancelled = false;
-    const fetcher = mode === "chapter" ? fetchChapter : fetchPassage;
-    fetcher(reference)
-      .then((p) => {
-        if (!cancelled)
-          setState({ status: "ok", header: p.header, verses: p.verses });
-      })
-      .catch((e: unknown) => {
-        if (!cancelled)
-          setState({
-            status: "error",
-            message: e instanceof Error ? e.message : "Failed to load.",
-          });
+    try {
+      const fetcher = mode === "chapter" ? fetchChapter : fetchPassage;
+      const result: FetchedPassage = fetcher(reference, translation);
+      setState({ status: "ok", header: result.header, verses: result.verses });
+    } catch (e: unknown) {
+      setState({
+        status: "error",
+        message: e instanceof Error ? e.message : "Verse data not found.",
       });
-    return () => { cancelled = true; };
-  }, [reference, mode]);
+    }
+  }, [reference, mode, translation]);
 
   // After chapter loads, scroll body so first cited verse is near the top
   useEffect(() => {
@@ -85,7 +84,7 @@ export default function VersePopup({ reference, onClose }: Props) {
           <span className="verse-dialog-ref">
             {mode === "chapter" ? bookChapter : reference.display}
           </span>
-          <span className="verse-dialog-translation">NLT</span>
+          <span className="verse-dialog-translation">{translation}</span>
           <button className="verse-close" onClick={onClose} aria-label="Close">✕</button>
         </div>
 

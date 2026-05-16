@@ -9,8 +9,7 @@ pages/
 node_modules/
 dist/
 
-# Generated PDF (regen with: python3 scripts/make_pdf.py)
-pdf/
+# Generated PDF lives in public/ and is committed with the app
 .vite/
 *.log
 npm-debug.log*

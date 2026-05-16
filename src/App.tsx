@@ -4,6 +4,18 @@ import type { Document, FrontMatterSection, Outline, Point, Reference } from "./
 import PointView from "./components/PointView";
 import VersePopup from "./components/VersePopup";
 import { VerseContext } from "./VerseContext";
+import { TRANSLATIONS, DEFAULT_TRANSLATION } from "./lib/verses";
+import type { TranslationId } from "./lib/verses";
+import {
+  saveLastSelection,
+  loadLastSelection,
+  loadVisited,
+  saveVisited,
+  selectionKey,
+  pointKey,
+  summaryKey,
+  clearProgress,
+} from "./lib/progress";
 
 const doc = data as Document;
 
@@ -21,6 +33,17 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeVerse, setActiveVerse] = useState<Reference | null>(null);
   const [selection, setSelection] = useState<Selection>({ kind: "landing" });
+  const [visited, setVisited] = useState<Set<string>>(() => loadVisited());
+  const lastSelection = loadLastSelection();
+  const [translation, setTranslation] = useState<TranslationId>(() => {
+    const saved = localStorage.getItem("translation");
+    return (saved as TranslationId | null) ?? DEFAULT_TRANSLATION;
+  });
+
+  const handleSetTranslation = (t: TranslationId) => {
+    setTranslation(t);
+    localStorage.setItem("translation", t);
+  };
 
   const filtered = useMemo(() => filterOutlines(doc.outlines, query), [query]);
 
@@ -29,10 +52,22 @@ export default function App() {
     setSidebarOpen(false);
     const main = document.querySelector(".main");
     if (main) main.scrollTop = 0;
+    // Persist last position and mark visited
+    saveLastSelection(s);
+    const key = selectionKey(s);
+    if (key) {
+      setVisited((prev) => {
+        if (prev.has(key)) return prev;
+        const next = new Set(prev);
+        next.add(key);
+        saveVisited(next);
+        return next;
+      });
+    }
   };
 
   return (
-    <VerseContext.Provider value={setActiveVerse}>
+    <VerseContext.Provider value={{ openVerse: setActiveVerse, translation, setTranslation: handleSetTranslation }}>
     <div className="app">
       <div
         className={`sidebar-backdrop${sidebarOpen ? " open" : ""}`}
@@ -91,66 +126,104 @@ export default function App() {
           <h2>Master Outlines</h2>
           {filtered.length === 0 && <p className="empty">No outlines yet.</p>}
           <ol>
-            {filtered.map(({ outline, originalIndex }) => (
-              <li key={outline.number}>
-                <details open={selectionInOutline(selection, originalIndex)}>
-                  <summary>
-                    <span className="outline-number">{outline.number}.</span>{" "}
-                    {outline.title || <em>(untitled)</em>}
-                  </summary>
-                  <ul>
-                    {outline.summary && (
-                      <li>
-                        <button
-                          className={
-                            selection.kind === "summary" &&
-                            selection.outlineIndex === originalIndex
-                              ? "selected"
-                              : ""
-                          }
-                          onClick={() =>
-                            navigate({
-                              kind: "summary",
-                              outlineIndex: originalIndex,
-                            })
-                          }
-                        >
-                          Overview
-                        </button>
-                      </li>
-                    )}
-                    {outline.points.map((p, pi) => (
-                      <li key={`${p.roman}-${pi}`}>
-                        <button
-                          className={
-                            selection.kind === "point" &&
-                            selection.outlineIndex === originalIndex &&
-                            selection.pointIndex === pi
-                              ? "selected"
-                              : ""
-                          }
-                          onClick={() =>
-                            navigate({
-                              kind: "point",
-                              outlineIndex: originalIndex,
-                              pointIndex: pi,
-                            })
-                          }
-                        >
-                          {p.roman} — {p.primary_reference.display}
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
-              </li>
-            ))}
+            {filtered.map(({ outline, originalIndex }) => {
+              const totalPoints = outline.points.length;
+              const donePoints = outline.points.filter((_, pi) =>
+                visited.has(pointKey(originalIndex, pi))
+              ).length;
+              const outlineDone = totalPoints > 0 && donePoints === totalPoints;
+              return (
+                <li key={outline.number}>
+                  <details open={selectionInOutline(selection, originalIndex)}>
+                    <summary>
+                      <span className="outline-number">{outline.number}.</span>{" "}
+                      {outline.title || <em>(untitled)</em>}
+                      {outlineDone && <span className="outline-done" aria-label="Complete">✓</span>}
+                    </summary>
+                    <ul>
+                      {outline.summary && (
+                        <li>
+                          <button
+                            className={[
+                              selection.kind === "summary" && selection.outlineIndex === originalIndex ? "selected" : "",
+                              visited.has(summaryKey(originalIndex)) ? "visited" : "",
+                            ].filter(Boolean).join(" ")}
+                            onClick={() =>
+                              navigate({ kind: "summary", outlineIndex: originalIndex })
+                            }
+                          >
+                            Overview
+                          </button>
+                        </li>
+                      )}
+                      {outline.points.map((p, pi) => (
+                        <li key={`${p.roman}-${pi}`}>
+                          <button
+                            className={[
+                              selection.kind === "point" && selection.outlineIndex === originalIndex && selection.pointIndex === pi ? "selected" : "",
+                              visited.has(pointKey(originalIndex, pi)) ? "visited" : "",
+                            ].filter(Boolean).join(" ")}
+                            onClick={() =>
+                              navigate({ kind: "point", outlineIndex: originalIndex, pointIndex: pi })
+                            }
+                          >
+                            {p.roman} — {p.primary_reference.display}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                </li>
+              );
+            })}
           </ol>
         </section>
+
+        <div className="sidebar-footer">
+          <section className="sidebar-section sidebar-translation">
+            <h2>Translation</h2>
+            <div className="translation-picker">
+              {TRANSLATIONS.map((t) => (
+                <button
+                  key={t.id}
+                  className={`translation-btn${translation === t.id ? " selected" : ""}`}
+                  onClick={() => handleSetTranslation(t.id)}
+                  title={t.full}
+                >
+                  {t.label}
+                </button>
+              ))}
+            </div>
+          </section>
+          <div className="sidebar-footer-links">
+            <button
+              className="reset-progress-btn"
+              onClick={() => {
+                if (confirm("Reset all reading progress?")) {
+                  clearProgress();
+                  setVisited(new Set());
+                }
+              }}
+            >
+              Reset progress
+            </button>
+            <a
+              className="download-pdf-btn"
+              href="/master_outlines_study_guide.pdf"
+              download
+            >
+              Download Study Guide PDF
+            </a>
+          </div>
+        </div>
       </aside>
 
       <main className="main">
-        <SelectionView selection={selection} navigate={navigate} />
+        <SelectionView
+          selection={selection}
+          navigate={navigate}
+          lastSelection={lastSelection}
+        />
       </main>
     </div>
     {activeVerse && (
@@ -166,12 +239,14 @@ export default function App() {
 function SelectionView({
   selection,
   navigate,
+  lastSelection,
 }: {
   selection: Selection;
   navigate: Navigate;
+  lastSelection: Selection | null;
 }) {
   if (selection.kind === "landing") {
-    return <LandingPage navigate={navigate} />;
+    return <LandingPage navigate={navigate} lastSelection={lastSelection} />;
   }
 
   if (selection.kind === "empty") {
@@ -287,7 +362,23 @@ const TOPICS = [
   { n: 15, label: "Witnessing",         sub: "Sharing your faith" },
 ];
 
-function LandingPage({ navigate }: { navigate: Navigate }) {
+function resumeLabel(sel: Selection): string {
+  if (sel.kind === "summary") {
+    const outline = doc.outlines[sel.outlineIndex];
+    return `Continue — Outline ${outline.number}: ${outline.title}`;
+  }
+  if (sel.kind === "point") {
+    const outline = doc.outlines[sel.outlineIndex];
+    const point = outline.points[sel.pointIndex];
+    return `Continue — Outline ${outline.number}, ${point.roman}`;
+  }
+  if (sel.kind === "front") {
+    return "Continue reading";
+  }
+  return "Continue";
+}
+
+function LandingPage({ navigate, lastSelection }: { navigate: Navigate; lastSelection: Selection | null }) {
   const firstOutlineIdx = 0;
   const introSectionIdx = doc.front_matter.findIndex((s) =>
     /What the Christian Life/i.test(s.title)
@@ -349,12 +440,21 @@ function LandingPage({ navigate }: { navigate: Navigate }) {
 
       {/* CTAs */}
       <div className="landing-ctas">
-        <button
-          className="nav-btn landing-cta-primary"
-          onClick={() => navigate({ kind: "summary", outlineIndex: firstOutlineIdx })}
-        >
-          Start with Outline 1 →
-        </button>
+        {lastSelection ? (
+          <button
+            className="nav-btn landing-cta-primary"
+            onClick={() => navigate(lastSelection)}
+          >
+            {resumeLabel(lastSelection)} →
+          </button>
+        ) : (
+          <button
+            className="nav-btn landing-cta-primary"
+            onClick={() => navigate({ kind: "summary", outlineIndex: firstOutlineIdx })}
+          >
+            Start with Outline 1 →
+          </button>
+        )}
         {introSectionIdx >= 0 && (
           <button
             className="landing-cta-secondary"
